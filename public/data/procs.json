@@ -1,0 +1,675 @@
+{
+  "natures_melody": {
+    "name": "Song of the Deep Seas",
+    "itemName": "Nature's Melody",
+    "itemUrl": "https://wiki.project1999.com/Nature%27s_Melody",
+    "classRestriction": [
+      "Bard"
+    ],
+    "requiredLevel": null,
+    "levelKnown": false,
+    "targetType": "group",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "agility_28song_of_the_deep_seas_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "strength_28song_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "ac_28slot_9_29",
+        "value": 15
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 60
+      }
+    ]
+  },
+  "siren_song_dagger_of_the_sea": {
+    "name": "Song of the Deep Seas",
+    "itemName": "Siren Song, Dagger of the Sea",
+    "itemUrl": "https://wiki.project1999.com/Siren_Song,_Dagger_of_the_Sea",
+    "classRestriction": [
+      "Bard"
+    ],
+    "requiredLevel": null,
+    "levelKnown": false,
+    "targetType": "group",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "agility_28song_of_the_deep_seas_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "strength_28song_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "ac_28slot_9_29",
+        "value": 15
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 60
+      }
+    ]
+  },
+  "primal_velium_weapons": {
+    "name": "Avatar",
+    "itemName": "Primal Velium Weapons",
+    "itemUrl": "https://wiki.project1999.com/Primal_Velium_Weapons",
+    "classRestriction": [
+      "Shaman"
+    ],
+    "requiredLevel": 55,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "agility_28avatar_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "dexterity_28avatar_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "strength_28avatar_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 100
+      }
+    ]
+  },
+  "iksar_berserker_club": {
+    "name": "Fleeting Fury",
+    "itemName": "Iksar Berserker Club",
+    "itemUrl": "https://wiki.project1999.com/Iksar_Berserker_Club",
+    "classRestriction": [
+      "Shaman"
+    ],
+    "requiredLevel": 10,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "dexterity_28short_duration_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "strength_28short_duration_29",
+        "value": 15
+      },
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 6
+      }
+    ]
+  },
+  "axe_of_the_slayers": {
+    "name": "Rampage",
+    "itemName": "Axe of the Slayers",
+    "itemUrl": "https://wiki.project1999.com/Axe_of_the_Slayers",
+    "classRestriction": [
+      "Warrior"
+    ],
+    "requiredLevel": 30,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 42
+      },
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 90
+      }
+    ]
+  },
+  "thornstinger": {
+    "name": "Rampage",
+    "itemName": "Thornstinger",
+    "itemUrl": "https://wiki.project1999.com/Thornstinger",
+    "classRestriction": [
+      "Rogue"
+    ],
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 42
+      },
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 90
+      }
+    ]
+  },
+  "vehement_sword_of_reivaj": {
+    "name": "Rampage",
+    "itemName": "Vehement Sword of Reivaj",
+    "itemUrl": "https://wiki.project1999.com/Vehement_Sword_of_Reivaj",
+    "classRestriction": [
+      "Warrior",
+      "Paladin",
+      "Shadow Knight"
+    ],
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 42
+      },
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 90
+      }
+    ]
+  },
+  "singing_short_sword": {
+    "name": "Dance of the Blade",
+    "itemName": "Singing Short Sword",
+    "itemUrl": "https://wiki.project1999.com/Singing_Short_Sword",
+    "classRestriction": [
+      "Bard"
+    ],
+    "requiredLevel": 46,
+    "levelKnown": true,
+    "targetType": "group",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28dance_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "attack_28slot_12_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 55
+      }
+    ]
+  },
+  "screaming_mace": {
+    "name": "Screaming Mace",
+    "itemName": "Screaming Mace",
+    "itemUrl": "https://wiki.project1999.com/Screaming_Mace",
+    "classRestriction": [],
+    "requiredLevel": 10,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28potion_29",
+        "value": 10
+      },
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 6
+      }
+    ]
+  },
+  "warhammer_of_divine_grace": {
+    "name": "Yaulp III",
+    "itemName": "Warhammer of Divine Grace",
+    "itemUrl": "https://wiki.project1999.com/Warhammer_of_Divine_Grace",
+    "classRestriction": [
+      "Cleric"
+    ],
+    "requiredLevel": 40,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 12
+      }
+    ]
+  },
+  "brells_keg_popper": {
+    "name": "Yaulp II",
+    "itemName": "Brell's Keg Popper",
+    "itemUrl": "https://wiki.project1999.com/Brell%27s_Keg_Popper",
+    "classRestriction": [
+      "Cleric",
+      "Paladin"
+    ],
+    "requiredLevel": 46,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "frost_giant_femur": {
+    "name": "Yaulp II",
+    "itemName": "Frost Giant Femur",
+    "itemUrl": "https://wiki.project1999.com/Frost_Giant_Femur",
+    "classRestriction": [
+      "Warrior",
+      "Shadow Knight",
+      "Shaman"
+    ],
+    "requiredLevel": 6,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "shrieking_ahlspiess": {
+    "name": "Yaulp II",
+    "itemName": "Shrieking Ahlspiess",
+    "itemUrl": "https://wiki.project1999.com/Shrieking_Ahlspiess",
+    "classRestriction": [
+      "Rogue"
+    ],
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "hammer_of_rage": {
+    "name": "Yaulp",
+    "itemName": "Hammer of Rage",
+    "itemUrl": "https://wiki.project1999.com/Hammer_of_Rage",
+    "classRestriction": [
+      "Warrior",
+      "Cleric",
+      "Paladin",
+      "Ranger",
+      "Shadow Knight",
+      "Shaman"
+    ],
+    "requiredLevel": 40,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 10
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 6
+      }
+    ]
+  },
+  "stave_of_shielding": {
+    "name": "Major Shielding",
+    "itemName": "Stave of Shielding",
+    "itemUrl": "https://wiki.project1999.com/Stave_of_Shielding",
+    "classRestriction": [
+      "Paladin",
+      "Shadow Knight",
+      "Monk"
+    ],
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 23
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 75
+      }
+    ]
+  },
+  "claw_of_phara_dar": {
+    "name": "Yaulp IV",
+    "itemName": "Claw of Phara Dar",
+    "itemUrl": "https://wiki.project1999.com/Claw_of_Phara_Dar",
+    "classRestriction": [
+      "Warrior",
+      "Ranger",
+      "Bard",
+      "Rogue"
+    ],
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 15
+      },
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 16
+      }
+    ]
+  },
+  "guardians_mace": {
+    "name": "Guard",
+    "itemName": "Guardians Mace",
+    "itemUrl": "https://wiki.project1999.com/Guardians_Mace",
+    "classRestriction": [
+      "Paladin",
+      "Bard"
+    ],
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 19
+      }
+    ]
+  },
+  "star_of_the_guardian": {
+    "name": "Guard",
+    "itemName": "Star of the Guardian",
+    "itemUrl": "https://wiki.project1999.com/Star_of_the_Guardian",
+    "classRestriction": [
+      "Warrior",
+      "Paladin",
+      "Bard"
+    ],
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 19
+      }
+    ]
+  },
+  "warding_star": {
+    "name": "Guard",
+    "itemName": "Warding Star",
+    "itemUrl": "https://wiki.project1999.com/Warding_Star",
+    "classRestriction": [
+      "Warrior",
+      "Paladin",
+      "Bard"
+    ],
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 19
+      }
+    ]
+  },
+  "crescent_blades_of_luclin": {
+    "name": "Shadow",
+    "itemName": "Crescent Blades of Luclin",
+    "itemUrl": "https://wiki.project1999.com/Crescent_Blades_of_Luclin",
+    "classRestriction": [
+      "Warrior",
+      "Ranger",
+      "Shadow Knight",
+      "Bard",
+      "Rogue"
+    ],
+    "requiredLevel": 40,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 19
+      }
+    ]
+  },
+  "shieldstorm": {
+    "name": "Spirit Armor",
+    "itemName": "Shieldstorm",
+    "itemUrl": "https://wiki.project1999.com/Shieldstorm",
+    "classRestriction": [
+      "Warrior",
+      "Paladin"
+    ],
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 13
+      }
+    ]
+  },
+  "cazic_quill": {
+    "name": "Shadow Vortex",
+    "itemName": "Cazic Quill",
+    "itemUrl": "https://wiki.project1999.com/Cazic_Quill",
+    "classRestriction": [
+      "Rogue"
+    ],
+    "requiredLevel": 35,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_7_29",
+        "value": 12
+      }
+    ]
+  },
+  "twisted_oaken_staff": {
+    "name": "Shadow Vortex",
+    "itemName": "Twisted Oaken Staff",
+    "itemUrl": "https://wiki.project1999.com/Twisted_Oaken_Staff",
+    "classRestriction": [
+      "Necromancer",
+      "Wizard",
+      "Magician",
+      "Enchanter"
+    ],
+    "requiredLevel": null,
+    "levelKnown": false,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_7_29",
+        "value": 12
+      }
+    ]
+  },
+  "harmonic_spear": {
+    "name": "Chant of Battle",
+    "itemName": "Harmonic Spear",
+    "itemUrl": "https://wiki.project1999.com/Harmonic_Spear",
+    "classRestriction": [
+      "Bard"
+    ],
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "targetType": "group",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_1_29",
+        "value": 6,
+        "valueWithInstrument": 16
+      }
+    ]
+  },
+  "lupine_dagger": {
+    "name": "Greater Wolf Form",
+    "itemName": "Lupine Dagger",
+    "itemUrl": "https://wiki.project1999.com/Lupine_Dagger",
+    "classRestriction": [
+      "Ranger"
+    ],
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 40
+      }
+    ]
+  },
+  "arydryidriyorn": {
+    "name": "Shield of Brambles",
+    "itemName": "Arydryidriyorn",
+    "itemUrl": "https://wiki.project1999.com/Arydryidriyorn",
+    "classRestriction": [
+      "Ranger"
+    ],
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 12
+      }
+    ]
+  },
+  "yannikil": {
+    "name": "Shield of Brambles",
+    "itemName": "Yannikil",
+    "itemUrl": "https://wiki.project1999.com/Yannikil",
+    "classRestriction": [
+      "Ranger"
+    ],
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 12
+      }
+    ]
+  },
+  "charred_black_staff": {
+    "name": "Shield of Flame",
+    "itemName": "Charred Black Staff",
+    "itemUrl": "https://wiki.project1999.com/Charred_Black_Staff",
+    "classRestriction": [
+      "Necromancer",
+      "Wizard",
+      "Magician",
+      "Enchanter"
+    ],
+    "requiredLevel": null,
+    "levelKnown": false,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 9
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 15
+      }
+    ]
+  },
+  "two_handed_practice_sword": {
+    "name": "Shield of Thistles",
+    "itemName": "Two Handed Practice Sword",
+    "itemUrl": "https://wiki.project1999.com/Two_Handed_Practice_Sword",
+    "classRestriction": [
+      "Warrior",
+      "Paladin",
+      "Ranger",
+      "Shadow Knight"
+    ],
+    "requiredLevel": 22,
+    "levelKnown": true,
+    "targetType": "self",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 6
+      }
+    ]
+  },
+  "song_of_the_deep_seas": {
+    "name": "Song of the Deep Seas",
+    "itemName": "Song of the Deep Seas",
+    "itemUrl": "https://wiki.project1999.com/Song_of_the_Deep_Seas",
+    "classRestriction": [
+      "Bard"
+    ],
+    "requiredLevel": null,
+    "levelKnown": false,
+    "targetType": "group",
+    "triggerCondition": "melee hit while wielding",
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 60
+      }
+    ]
+  }
+}

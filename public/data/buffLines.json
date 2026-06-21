@@ -1,0 +1,460 @@
+{
+  "agility_28primary_29": {
+    "name": "Agility (Primary)",
+    "stat": "Agility"
+  },
+  "agility_28speed_augmentation_29": {
+    "name": "Agility (Speed Augmentation)",
+    "stat": "Agility"
+  },
+  "agility_28march_29": {
+    "name": "Agility (March)",
+    "stat": "Agility"
+  },
+  "agility_28song_of_the_deep_seas_29": {
+    "name": "Agility (Song of the Deep Seas)",
+    "stat": "Agility"
+  },
+  "agility_28avatar_29": {
+    "name": "Agility (Avatar)",
+    "stat": "Agility"
+  },
+  "agility_28potion_29": {
+    "name": "Agility (Potion)",
+    "stat": "Agility"
+  },
+  "charisma_28primary_29": {
+    "name": "Charisma (Primary)",
+    "stat": "Charisma"
+  },
+  "charisma_28bard_song_29": {
+    "name": "Charisma (Bard Song)",
+    "stat": "Charisma"
+  },
+  "charisma_28potion_29": {
+    "name": "Charisma (Potion)",
+    "stat": "Charisma"
+  },
+  "dexterity_28primary_29": {
+    "name": "Dexterity (Primary)",
+    "stat": "Dexterity"
+  },
+  "dexterity_28combination_29": {
+    "name": "Dexterity (Combination)",
+    "stat": "Dexterity"
+  },
+  "dexterity_28power_29": {
+    "name": "Dexterity (Power)",
+    "stat": "Dexterity"
+  },
+  "dexterity_28illusion_29": {
+    "name": "Dexterity (Illusion)",
+    "stat": "Dexterity"
+  },
+  "dexterity_28avatar_29": {
+    "name": "Dexterity (Avatar)",
+    "stat": "Dexterity"
+  },
+  "dexterity_28potion_29": {
+    "name": "Dexterity (Potion)",
+    "stat": "Dexterity"
+  },
+  "dexterity_28short_duration_29": {
+    "name": "Dexterity (Short Duration)",
+    "stat": "Dexterity",
+    "exceptions": [
+      "* Due to a mistake made by the original EQ developers Focus of Spirit and Mortal Deftness stack, even though they should be part of the same buff line, but only if Mortal Deftness is cast first."
+    ]
+  },
+  "intelligence_28primary_29": {
+    "name": "Intelligence (Primary)",
+    "stat": "Intelligence"
+  },
+  "intelligence_28elegy_29": {
+    "name": "Intelligence (Elegy)",
+    "stat": "Intelligence"
+  },
+  "stamina_28primary_29": {
+    "name": "Stamina (Primary)",
+    "stat": "Stamina"
+  },
+  "stamina_28potion_stability_29": {
+    "name": "Stamina (Potion: Stability)",
+    "stat": "Stamina"
+  },
+  "stamina_28potion_adroitness_29": {
+    "name": "Stamina (Potion: Adroitness)",
+    "stat": "Stamina"
+  },
+  "strength_28primary_29": {
+    "name": "Strength (Primary)",
+    "stat": "Strength"
+  },
+  "strength_28power_29": {
+    "name": "Strength (Power)",
+    "stat": "Strength"
+  },
+  "strength_28anthem_29": {
+    "name": "Strength (Anthem)",
+    "stat": "Strength"
+  },
+  "strength_28dance_29": {
+    "name": "Strength (Dance)",
+    "stat": "Strength"
+  },
+  "strength_28song_29": {
+    "name": "Strength (Song)",
+    "stat": "Strength"
+  },
+  "strength_28illusion_29": {
+    "name": "Strength (Illusion)",
+    "stat": "Strength"
+  },
+  "strength_28avatar_29": {
+    "name": "Strength (Avatar)",
+    "stat": "Strength"
+  },
+  "strength_28potion_29": {
+    "name": "Strength (Potion)",
+    "stat": "Strength"
+  },
+  "strength_28short_duration_29": {
+    "name": "Strength (Short Duration)",
+    "stat": "Strength"
+  },
+  "strength_28short_duration_yaulp_29": {
+    "name": "Strength (Short Duration: Yaulp)",
+    "stat": "Strength"
+  },
+  "strength_28short_duration_bedlam_29": {
+    "name": "Strength (Short Duration: Bedlam)",
+    "stat": "Strength"
+  },
+  "wisdom_28enchanter_29": {
+    "name": "Wisdom (Enchanter)",
+    "stat": "Wisdom"
+  },
+  "wisdom_28elegy_29": {
+    "name": "Wisdom (Elegy)",
+    "stat": "Wisdom"
+  },
+  "wisdom_28illusion_2c_shaman_self_only_29": {
+    "name": "Wisdom (Illusion, Shaman Self-Only)",
+    "stat": "Wisdom"
+  },
+  "ac_28slot_1_26_4_29": {
+    "name": "AC (Slot 1 & 4)",
+    "stat": "AC"
+  },
+  "ac_28slot_1_29": {
+    "name": "AC (Slot 1)",
+    "stat": "AC"
+  },
+  "ac_28slot_2_29": {
+    "name": "AC (Slot 2)",
+    "stat": "AC"
+  },
+  "ac_28slot_3_29": {
+    "name": "AC (Slot 3)",
+    "stat": "AC"
+  },
+  "ac_28slot_4_29": {
+    "name": "AC (Slot 4)",
+    "stat": "AC"
+  },
+  "ac_28slot_7_29": {
+    "name": "AC (Slot 7)",
+    "stat": "AC"
+  },
+  "ac_28slot_8_29": {
+    "name": "AC (Slot 8)",
+    "stat": "AC"
+  },
+  "ac_28slot_9_29": {
+    "name": "AC (Slot 9)",
+    "stat": "AC"
+  },
+  "ac_28layer_2_2c_slot_1_29": {
+    "name": "AC (Layer 2, Slot 1)",
+    "stat": "AC"
+  },
+  "ac_28layer_2_2c_slot_2_29": {
+    "name": "AC (Layer 2, Slot 2)",
+    "stat": "AC"
+  },
+  "ac_28layer_2_2c_slot_3_29": {
+    "name": "AC (Layer 2, Slot 3)",
+    "stat": "AC"
+  },
+  "ac_28layer_2_2c_slot_4_29": {
+    "name": "AC (Layer 2, Slot 4)",
+    "stat": "AC"
+  },
+  "attack_28slot_1_29": {
+    "name": "Attack (Slot 1)",
+    "stat": "Attack (ATK)"
+  },
+  "attack_28slot_2_29": {
+    "name": "Attack (Slot 2)",
+    "stat": "Attack (ATK)"
+  },
+  "attack_28slot_3_29": {
+    "name": "Attack (Slot 3)",
+    "stat": "Attack (ATK)"
+  },
+  "attack_28slot_4_29": {
+    "name": "Attack (Slot 4)",
+    "stat": "Attack (ATK)"
+  },
+  "attack_28slot_5_29": {
+    "name": "Attack (Slot 5)",
+    "stat": "Attack (ATK)"
+  },
+  "attack_28slot_7_29": {
+    "name": "Attack (Slot 7)",
+    "stat": "Attack (ATK)"
+  },
+  "attack_28slot_12_29": {
+    "name": "Attack (Slot 12)",
+    "stat": "Attack (ATK)"
+  },
+  "attack_28layer_2_2c_slot_3_26_4_29": {
+    "name": "Attack (Layer 2, Slot 3 & 4)",
+    "stat": "Attack (ATK)"
+  },
+  "attack_28worn_29": {
+    "name": "Attack (Worn)",
+    "stat": "Attack (ATK)"
+  },
+  "damage_absorption_28primary_29": {
+    "name": "Damage Absorption (Primary)",
+    "stat": "Damage Absorption"
+  },
+  "damage_absorption_28berserker_29": {
+    "name": "Damage Absorption (Berserker)",
+    "stat": "Damage Absorption"
+  },
+  "damage_absorption_28shield_of_song_29": {
+    "name": "Damage Absorption (Shield of Song)",
+    "stat": "Damage Absorption"
+  },
+  "damage_absorption_28march_29": {
+    "name": "Damage Absorption (March)",
+    "stat": "Damage Absorption"
+  },
+  "damage_absorption_28gm_item_29": {
+    "name": "Damage Absorption (GM Item)",
+    "stat": "Damage Absorption"
+  },
+  "damage_absorption_2c_magic_28song_shield_29": {
+    "name": "Damage Absorption, Magic (Song Shield)",
+    "stat": "Damage Absorption, Magic"
+  },
+  "damage_absorption_2c_magic_28psalm_29": {
+    "name": "Damage Absorption, Magic (Psalm)",
+    "stat": "Damage Absorption, Magic"
+  },
+  "damage_absorption_2c_magic_28melody_29": {
+    "name": "Damage Absorption, Magic (Melody)",
+    "stat": "Damage Absorption, Magic"
+  },
+  "damage_absorption_2c_magic_28manasink_29": {
+    "name": "Damage Absorption, Magic (Manasink)",
+    "stat": "Damage Absorption, Magic"
+  },
+  "damage_shield_28slot_1_29": {
+    "name": "Damage Shield (Slot 1)",
+    "stat": "Damage Shield Stacking"
+  },
+  "damage_shield_28slot_2_29": {
+    "name": "Damage Shield (Slot 2)",
+    "stat": "Damage Shield Stacking"
+  },
+  "damage_shield_28slot_3_29": {
+    "name": "Damage Shield (Slot 3)",
+    "stat": "Damage Shield Stacking"
+  },
+  "damage_shield_28slot_4_29": {
+    "name": "Damage Shield (Slot 4)",
+    "stat": "Damage Shield Stacking"
+  },
+  "damage_shield_28layer_2_2c_slot_1_29": {
+    "name": "Damage Shield (Layer 2, Slot 1)",
+    "stat": "Damage Shield Stacking"
+  },
+  "damage_shield_28layer_2_2c_slot_4_29": {
+    "name": "Damage Shield (Layer 2, Slot 4)",
+    "stat": "Damage Shield Stacking"
+  },
+  "haste_28primary_29": {
+    "name": "Haste (Primary)",
+    "stat": "Haste"
+  },
+  "haste_28ervaj_2f_22v2_22_29": {
+    "name": "Haste (Ervaj/\"v2\")",
+    "stat": "Haste"
+  },
+  "hp_28primary_29": {
+    "name": "HP (Primary)",
+    "stat": "HP (Hit Points)"
+  },
+  "hp_28shielding_2f_talisman_29": {
+    "name": "HP (Shielding / Talisman)",
+    "stat": "HP (Hit Points)"
+  },
+  "hp_28strength_29": {
+    "name": "HP (Strength)",
+    "stat": "HP (Hit Points)"
+  },
+  "hp_regeneration_28slot_1_29": {
+    "name": "HP Regeneration (Slot 1)",
+    "stat": "HP Regeneration"
+  },
+  "hp_regeneration_28slot_2_29": {
+    "name": "HP Regeneration (Slot 2)",
+    "stat": "HP Regeneration"
+  },
+  "hp_regeneration_28slot_3_26_6_29": {
+    "name": "HP Regeneration (Slot 3 & 6)",
+    "stat": "HP Regeneration"
+  },
+  "hp_regeneration_28slot_4_29": {
+    "name": "HP Regeneration (Slot 4)",
+    "stat": "HP Regeneration"
+  },
+  "hp_regeneration_28layer_2_2c_slot_1_29": {
+    "name": "HP Regeneration (Layer 2, Slot 1)",
+    "stat": "HP Regeneration"
+  },
+  "hp_regeneration_28layer_2_2c_slot_3_29": {
+    "name": "HP Regeneration (Layer 2, Slot 3)",
+    "stat": "HP Regeneration"
+  },
+  "hp_regeneration_28worn_29": {
+    "name": "HP Regeneration (Worn)",
+    "stat": "HP Regeneration",
+    "exceptions": [
+      "NOTE: While multiple worn regeneration items do stack, they have a combined maximum of 15 HP/tick regeneration.  As such, there is no additional (regeneration) benefit to wearing a Fungus Covered Scale Tunic AND a (non-chest) Aura of Battle item, as the Fungi alone will already hit the regen cap."
+    ]
+  },
+  "mana_28primary_29": {
+    "name": "Mana (Primary)",
+    "stat": "Mana"
+  },
+  "mana_regeneration_28protection_of_the_glades_29": {
+    "name": "Mana Regeneration (Protection of the Glades)",
+    "stat": "Mana Regeneration"
+  },
+  "mana_regeneration_28clarity_29": {
+    "name": "Mana Regeneration (Clarity)",
+    "stat": "Mana Regeneration"
+  },
+  "mana_regeneration_28gift_29": {
+    "name": "Mana Regeneration (Gift)",
+    "stat": "Mana Regeneration"
+  },
+  "mana_regeneration_28chorus_29": {
+    "name": "Mana Regeneration (Chorus)",
+    "stat": "Mana Regeneration"
+  },
+  "mana_regeneration_28cantata_29": {
+    "name": "Mana Regeneration (Cantata)",
+    "stat": "Mana Regeneration"
+  },
+  "mana_regeneration_28self_only_29": {
+    "name": "Mana Regeneration (Self-Only)",
+    "stat": "Mana Regeneration"
+  },
+  "mana_regeneration_28lich_29": {
+    "name": "Mana Regeneration (Lich)",
+    "stat": "Mana Regeneration"
+  },
+  "primary": {
+    "name": "Primary",
+    "stat": "Cold Resistance"
+  },
+  "flower_2farmor": {
+    "name": "Flower/Armor",
+    "stat": "Cold Resistance"
+  },
+  "bard": {
+    "name": "Bard",
+    "stat": "Cold Resistance"
+  },
+  "potion": {
+    "name": "Potion",
+    "stat": "Cold Resistance"
+  },
+  "primary_2": {
+    "name": "Primary",
+    "stat": "Disease Resistance"
+  },
+  "psalm": {
+    "name": "Psalm",
+    "stat": "Disease Resistance"
+  },
+  "item": {
+    "name": "Item",
+    "stat": "Disease Resistance"
+  },
+  "slot_1": {
+    "name": "Slot 1",
+    "stat": "Fire Resistance"
+  },
+  "slot_2": {
+    "name": "Slot 2",
+    "stat": "Fire Resistance"
+  },
+  "slot_3": {
+    "name": "Slot 3",
+    "stat": "Fire Resistance"
+  },
+  "slot_4": {
+    "name": "Slot 4",
+    "stat": "Fire Resistance"
+  },
+  "layer_2_2c_slot_2_26_3": {
+    "name": "Layer 2, Slot 2 & 3",
+    "stat": "Fire Resistance"
+  },
+  "primary_3": {
+    "name": "Primary",
+    "stat": "Magic Resistance"
+  },
+  "psalm_2": {
+    "name": "Psalm",
+    "stat": "Magic Resistance"
+  },
+  "magic_shield": {
+    "name": "Magic Shield",
+    "stat": "Magic Resistance"
+  },
+  "potion_2": {
+    "name": "Potion",
+    "stat": "Magic Resistance"
+  },
+  "primary_4": {
+    "name": "Primary",
+    "stat": "Poison Resistance"
+  },
+  "flower": {
+    "name": "Flower",
+    "stat": "Poison Resistance"
+  },
+  "dead_man_floating": {
+    "name": "Dead Man Floating",
+    "stat": "Poison Resistance"
+  },
+  "psalm_3": {
+    "name": "Psalm",
+    "stat": "Poison Resistance"
+  },
+  "item_2": {
+    "name": "Item",
+    "stat": "Poison Resistance"
+  },
+  "speed_28primary_29": {
+    "name": "Speed (Primary)",
+    "stat": "Speed"
+  }
+}

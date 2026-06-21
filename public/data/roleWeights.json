@@ -1,0 +1,52 @@
+{
+  "none": {
+    "Haste": 4,
+    "Mana Regeneration": 3,
+    "HP Regeneration": 3,
+    "Damage Absorption": 2,
+    "Damage Absorption, Magic": 2,
+    "AC": 2,
+    "Strength": 2,
+    "Attack (ATK)": 2,
+    "Dexterity": 1.5,
+    "Agility": 1,
+    "default": 1
+  },
+  "casterGroup": {
+    "Mana Regeneration": 6,
+    "HP Regeneration": 4,
+    "Damage Absorption, Magic": 3,
+    "Damage Absorption": 2,
+    "AC": 2,
+    "Haste": 1.5,
+    "Attack (ATK)": 0.5,
+    "Strength": 0.5,
+    "Dexterity": 0.5,
+    "default": 1
+  },
+  "tankGroup": {
+    "Haste": 4,
+    "AC": 4,
+    "Damage Absorption": 3,
+    "HP Regeneration": 3,
+    "Strength": 2.5,
+    "Mana Regeneration": 2,
+    "Damage Absorption, Magic": 2,
+    "Attack (ATK)": 1.5,
+    "Dexterity": 1.5,
+    "Agility": 1.5,
+    "default": 1
+  },
+  "meleeGroup": {
+    "Haste": 5,
+    "Strength": 3,
+    "Dexterity": 3,
+    "Attack (ATK)": 2.5,
+    "Damage Absorption": 2,
+    "HP Regeneration": 2,
+    "Mana Regeneration": 1.5,
+    "AC": 1.5,
+    "Agility": 1.5,
+    "default": 0.8
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "p99-comp-solver",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "scrape": "tsx scripts/scrape.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2"
+  }
+}

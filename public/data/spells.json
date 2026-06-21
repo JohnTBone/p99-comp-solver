@@ -1,0 +1,5589 @@
+{
+  "deliriously_nimble": {
+    "name": "Deliriously Nimble",
+    "sourceUrl": "https://wiki.project1999.com/Deliriously_Nimble",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 53
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28primary_29",
+        "value": 52
+      }
+    ]
+  },
+  "talisman_of_the_cat": {
+    "name": "Talisman of the Cat",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_the_Cat",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 57
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28primary_29",
+        "value": 45
+      }
+    ]
+  },
+  "agility": {
+    "name": "Agility",
+    "sourceUrl": "https://wiki.project1999.com/Agility",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28primary_29",
+        "value": 45
+      }
+    ]
+  },
+  "nimble": {
+    "name": "Nimble",
+    "sourceUrl": "https://wiki.project1999.com/Nimble",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28primary_29",
+        "value": 36
+      }
+    ]
+  },
+  "spirit_of_cat": {
+    "name": "Spirit of Cat",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_of_Cat",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 19
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28primary_29",
+        "value": 27
+      }
+    ]
+  },
+  "feet_like_cat": {
+    "name": "Feet like Cat",
+    "sourceUrl": "https://wiki.project1999.com/Feet_like_Cat",
+    "classes": [
+      {
+        "class": "Ranger",
+        "level": 15
+      },
+      {
+        "class": "Shaman",
+        "level": 5
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28primary_29",
+        "value": 18
+      }
+    ]
+  },
+  "visions_of_grandeur": {
+    "name": "Visions of Grandeur",
+    "sourceUrl": "https://wiki.project1999.com/Visions_of_Grandeur",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28speed_augmentation_29",
+        "value": 40
+      },
+      {
+        "buffLineId": "dexterity_28power_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "attack_28slot_4_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 58
+      }
+    ]
+  },
+  "augment": {
+    "name": "Augment",
+    "sourceUrl": "https://wiki.project1999.com/Augment",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 56
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28speed_augmentation_29",
+        "value": 35
+      },
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 18
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 45
+      }
+    ]
+  },
+  "augmentation": {
+    "name": "Augmentation",
+    "sourceUrl": "https://wiki.project1999.com/Augmentation",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28speed_augmentation_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 9
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 28
+      }
+    ]
+  },
+  "nillipus_march_of_the_wee": {
+    "name": "Nillipus' March of the Wee",
+    "sourceUrl": "https://wiki.project1999.com/Nillipus%27_March_of_the_Wee",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 52
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "agility_28march_29",
+        "value": 18,
+        "valueWithInstrument": 50
+      },
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_1_29",
+        "value": 9,
+        "valueWithInstrument": 25
+      },
+      {
+        "buffLineId": "damage_absorption_28march_29",
+        "value": 9,
+        "valueWithInstrument": 33
+      }
+    ],
+    "instrumentSkill": "percussion"
+  },
+  "avatar": {
+    "name": "Avatar",
+    "sourceUrl": "https://wiki.project1999.com/Avatar",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "agility_28avatar_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "dexterity_28avatar_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "strength_28avatar_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 100
+      }
+    ]
+  },
+  "unfailing_reverence": {
+    "name": "Unfailing Reverence",
+    "sourceUrl": "https://wiki.project1999.com/Unfailing_Reverence",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 59
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 55
+      }
+    ]
+  },
+  "overwhelming_splendor": {
+    "name": "Overwhelming Splendor",
+    "sourceUrl": "https://wiki.project1999.com/Overwhelming_Splendor",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 56
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 50
+      }
+    ]
+  },
+  "talisman_of_the_serpent": {
+    "name": "Talisman of the Serpent",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_the_Serpent",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 58
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "charisma": {
+    "name": "Charisma",
+    "sourceUrl": "https://wiki.project1999.com/Charisma",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "adorning_grace": {
+    "name": "Adorning Grace",
+    "sourceUrl": "https://wiki.project1999.com/Adorning_Grace",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "glamour": {
+    "name": "Glamour",
+    "sourceUrl": "https://wiki.project1999.com/Glamour",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 32
+      }
+    ]
+  },
+  "radiant_visage": {
+    "name": "Radiant Visage",
+    "sourceUrl": "https://wiki.project1999.com/Radiant_Visage",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 30
+      }
+    ]
+  },
+  "alluring_aura": {
+    "name": "Alluring Aura",
+    "sourceUrl": "https://wiki.project1999.com/Alluring_Aura",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 23
+      }
+    ]
+  },
+  "sympathetic_aura": {
+    "name": "Sympathetic Aura",
+    "sourceUrl": "https://wiki.project1999.com/Sympathetic_Aura",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 20
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 18
+      }
+    ]
+  },
+  "spirit_of_snake": {
+    "name": "Spirit of Snake",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_of_Snake",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 14
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "charisma_28primary_29",
+        "value": 15
+      }
+    ]
+  },
+  "solons_charismatic_concord": {
+    "name": "Solon's Charismatic Concord",
+    "sourceUrl": "https://wiki.project1999.com/Solon%27s_Charismatic_Concord",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 59
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "charisma_28bard_song_29",
+        "value": 45,
+        "valueWithInstrument": 126
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "mortal_deftness": {
+    "name": "Mortal Deftness",
+    "sourceUrl": "https://wiki.project1999.com/Mortal_Deftness",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 58
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28primary_29",
+        "value": 60
+      }
+    ]
+  },
+  "talisman_of_the_raptor": {
+    "name": "Talisman of the Raptor",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_the_Raptor",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 59
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28primary_29",
+        "value": 60
+      }
+    ]
+  },
+  "dexterity": {
+    "name": "Dexterity",
+    "sourceUrl": "https://wiki.project1999.com/Dexterity",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28primary_29",
+        "value": 50
+      }
+    ]
+  },
+  "deftness": {
+    "name": "Deftness",
+    "sourceUrl": "https://wiki.project1999.com/Deftness",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "rising_dexterity": {
+    "name": "Rising Dexterity",
+    "sourceUrl": "https://wiki.project1999.com/Rising_Dexterity",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28primary_29",
+        "value": 30
+      }
+    ]
+  },
+  "spirit_of_monkey": {
+    "name": "Spirit of Monkey",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_of_Monkey",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 24
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28primary_29",
+        "value": 20
+      }
+    ]
+  },
+  "dexterous_aura": {
+    "name": "Dexterous Aura",
+    "sourceUrl": "https://wiki.project1999.com/Dexterous_Aura",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 1
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28primary_29",
+        "value": 10
+      }
+    ]
+  },
+  "focus_of_spirit": {
+    "name": "Focus of Spirit",
+    "sourceUrl": "https://wiki.project1999.com/Focus_of_Spirit",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28combination_29",
+        "value": 60
+      },
+      {
+        "buffLineId": "strength_28power_29",
+        "value": 67
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 405
+      }
+    ]
+  },
+  "chant_of_battle": {
+    "name": "Chant of Battle",
+    "sourceUrl": "https://wiki.project1999.com/Chant_of_Battle",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 1
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28power_29",
+        "value": 20,
+        "valueWithInstrument": 56
+      },
+      {
+        "buffLineId": "strength_28anthem_29",
+        "value": 20,
+        "valueWithInstrument": 56
+      },
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_1_29",
+        "value": 6,
+        "valueWithInstrument": 16
+      }
+    ],
+    "instrumentSkill": "percussion"
+  },
+  "boon_of_the_garou": {
+    "name": "Boon of the Garou",
+    "sourceUrl": "https://wiki.project1999.com/Boon_of_the_Garou",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28illusion_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 30
+      }
+    ]
+  },
+  "fleeting_fury": {
+    "name": "Fleeting Fury",
+    "sourceUrl": "https://wiki.project1999.com/Fleeting_Fury",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 5
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dexterity_28short_duration_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "strength_28short_duration_29",
+        "value": 15
+      },
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 6
+      }
+    ]
+  },
+  "enlightenment": {
+    "name": "Enlightenment",
+    "sourceUrl": "https://wiki.project1999.com/Enlightenment",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 57
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "intelligence_28primary_29",
+        "value": 22
+      },
+      {
+        "buffLineId": "wisdom_28enchanter_29",
+        "value": 22
+      }
+    ]
+  },
+  "brilliance": {
+    "name": "Brilliance",
+    "sourceUrl": "https://wiki.project1999.com/Brilliance",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "intelligence_28primary_29",
+        "value": 14
+      },
+      {
+        "buffLineId": "wisdom_28enchanter_29",
+        "value": 7
+      }
+    ]
+  },
+  "insight": {
+    "name": "Insight",
+    "sourceUrl": "https://wiki.project1999.com/Insight",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "intelligence_28primary_29",
+        "value": 9
+      },
+      {
+        "buffLineId": "wisdom_28enchanter_29",
+        "value": 14
+      }
+    ]
+  },
+  "cassindras_elegy": {
+    "name": "Cassindra's Elegy",
+    "sourceUrl": "https://wiki.project1999.com/Cassindra%27s_Elegy",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "intelligence_28elegy_29",
+        "value": 16,
+        "valueWithInstrument": 44
+      },
+      {
+        "buffLineId": "wisdom_28elegy_29",
+        "value": 16,
+        "valueWithInstrument": 44
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "riotous_health": {
+    "name": "Riotous Health",
+    "sourceUrl": "https://wiki.project1999.com/Riotous_Health",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 54
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "stamina_28primary_29",
+        "value": 50
+      }
+    ]
+  },
+  "talisman_of_the_brute": {
+    "name": "Talisman of the Brute",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_the_Brute",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 57
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "stamina_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "stamina": {
+    "name": "Stamina",
+    "sourceUrl": "https://wiki.project1999.com/Stamina",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "stamina_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "health": {
+    "name": "Health",
+    "sourceUrl": "https://wiki.project1999.com/Health",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "stamina_28primary_29",
+        "value": 31
+      }
+    ]
+  },
+  "spirit_of_ox": {
+    "name": "Spirit of Ox",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_of_Ox",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 24
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "stamina_28primary_29",
+        "value": 23
+      }
+    ]
+  },
+  "spirit_of_bear": {
+    "name": "Spirit of Bear",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_of_Bear",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 9
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "stamina_28primary_29",
+        "value": 15
+      }
+    ]
+  },
+  "maniacal_strength": {
+    "name": "Maniacal Strength",
+    "sourceUrl": "https://wiki.project1999.com/Maniacal_Strength",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 57
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 68
+      }
+    ]
+  },
+  "strength": {
+    "name": "Strength",
+    "sourceUrl": "https://wiki.project1999.com/Strength",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 67
+      }
+    ]
+  },
+  "girdle_of_karana": {
+    "name": "Girdle of Karana",
+    "sourceUrl": "https://wiki.project1999.com/Girdle_of_Karana",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 55
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 42
+      }
+    ]
+  },
+  "rampage": {
+    "name": "Rampage",
+    "sourceUrl": "https://wiki.project1999.com/Rampage",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 42
+      },
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 90
+      }
+    ]
+  },
+  "talisman_of_the_rhino": {
+    "name": "Talisman of the Rhino",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_the_Rhino",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 58
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 42
+      }
+    ]
+  },
+  "berserker_spirit": {
+    "name": "Berserker Spirit",
+    "sourceUrl": "https://wiki.project1999.com/Berserker_Spirit",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 40
+      },
+      {
+        "buffLineId": "damage_absorption_28berserker_29",
+        "value": 200
+      }
+    ]
+  },
+  "storm_strength": {
+    "name": "Storm Strength",
+    "sourceUrl": "https://wiki.project1999.com/Storm_Strength",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 44
+      },
+      {
+        "class": "Ranger",
+        "level": 53
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 35
+      }
+    ]
+  },
+  "furious_strength": {
+    "name": "Furious Strength",
+    "sourceUrl": "https://wiki.project1999.com/Furious_Strength",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 34
+      }
+    ]
+  },
+  "tumultuous_strength": {
+    "name": "Tumultuous Strength",
+    "sourceUrl": "https://wiki.project1999.com/Tumultuous_Strength",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 39
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 34
+      }
+    ]
+  },
+  "raging_strength": {
+    "name": "Raging Strength",
+    "sourceUrl": "https://wiki.project1999.com/Raging_Strength",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 26
+      }
+    ]
+  },
+  "strength_of_stone": {
+    "name": "Strength of Stone",
+    "sourceUrl": "https://wiki.project1999.com/Strength_of_Stone",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 25
+      }
+    ]
+  },
+  "spirit_strength": {
+    "name": "Spirit Strength",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_Strength",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 19
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 18
+      }
+    ]
+  },
+  "strength_of_earth": {
+    "name": "Strength of Earth",
+    "sourceUrl": "https://wiki.project1999.com/Strength_of_Earth",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 9
+      },
+      {
+        "class": "Ranger",
+        "level": 22
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 15
+      }
+    ]
+  },
+  "strengthen": {
+    "name": "Strengthen",
+    "sourceUrl": "https://wiki.project1999.com/Strengthen",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 1
+      },
+      {
+        "class": "Shaman",
+        "level": 1
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28primary_29",
+        "value": 10
+      }
+    ]
+  },
+  "anthem_de_arms": {
+    "name": "Anthem De Arms",
+    "sourceUrl": "https://wiki.project1999.com/Anthem_De_Arms",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 10
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "strength_28anthem_29",
+        "value": 35,
+        "valueWithInstrument": 98
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 10
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "jonthans_whistling_warsong": {
+    "name": "Jonthan's Whistling Warsong",
+    "sourceUrl": "https://wiki.project1999.com/Jonthan%27s_Whistling_Warsong",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 7
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "strength_28anthem_29",
+        "value": 32,
+        "valueWithInstrument": 89
+      },
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_3_29",
+        "value": 10,
+        "valueWithInstrument": 28
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "nivs_melody_of_preservation": {
+    "name": "Niv's Melody of Preservation",
+    "sourceUrl": "https://wiki.project1999.com/Niv%27s_Melody_of_Preservation",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 47
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "strength_28anthem_29",
+        "value": 10,
+        "valueWithInstrument": 28
+      },
+      {
+        "buffLineId": "damage_absorption_2c_magic_28melody_29",
+        "value": 10,
+        "valueWithInstrument": 28
+      },
+      {
+        "buffLineId": "hp_regeneration_28layer_2_2c_slot_3_29",
+        "value": 9,
+        "valueWithInstrument": 25
+      }
+    ],
+    "instrumentSkill": "string"
+  },
+  "mcvaxius_rousing_rondo": {
+    "name": "McVaxius' Rousing Rondo",
+    "sourceUrl": "https://wiki.project1999.com/McVaxius%27_Rousing_Rondo",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 57
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "strength_28anthem_29",
+        "value": 21,
+        "valueWithInstrument": 58
+      },
+      {
+        "buffLineId": "attack_28layer_2_2c_slot_3_26_4_29",
+        "value": 14,
+        "valueWithInstrument": 39
+      },
+      {
+        "buffLineId": "damage_shield_28layer_2_2c_slot_4_29",
+        "value": 8,
+        "valueWithInstrument": 22
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 22
+      }
+    ],
+    "instrumentSkill": "brass"
+  },
+  "illusion_werewolf": {
+    "name": "Illusion: Werewolf",
+    "sourceUrl": "https://wiki.project1999.com/Illusion:_Werewolf",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 44
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28illusion_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "attack_28slot_2_29",
+        "value": 61
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "illusion_earth_elemental": {
+    "name": "Illusion: Earth Elemental",
+    "sourceUrl": "https://wiki.project1999.com/Illusion:_Earth_Elemental",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 24
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28illusion_29",
+        "value": 10
+      }
+    ]
+  },
+  "burst_of_strength": {
+    "name": "Burst of Strength",
+    "sourceUrl": "https://wiki.project1999.com/Burst_of_Strength",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 14
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_29",
+        "value": 20
+      }
+    ]
+  },
+  "yaulp_iv": {
+    "name": "Yaulp IV",
+    "sourceUrl": "https://wiki.project1999.com/Yaulp_IV",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 53
+      },
+      {
+        "class": "Paladin",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 40
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 15
+      },
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 16
+      }
+    ]
+  },
+  "yaulp_iii": {
+    "name": "Yaulp III",
+    "sourceUrl": "https://wiki.project1999.com/Yaulp_III",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 44
+      },
+      {
+        "class": "Paladin",
+        "level": 56
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 12
+      }
+    ]
+  },
+  "yaulp_ii": {
+    "name": "Yaulp II",
+    "sourceUrl": "https://wiki.project1999.com/Yaulp_II",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 19
+      },
+      {
+        "class": "Paladin",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "yaulp": {
+    "name": "Yaulp",
+    "sourceUrl": "https://wiki.project1999.com/Yaulp",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 1
+      },
+      {
+        "class": "Paladin",
+        "level": 9
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 10
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 6
+      }
+    ]
+  },
+  "bedlam": {
+    "name": "Bedlam",
+    "sourceUrl": "https://wiki.project1999.com/Bedlam",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 58
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_bedlam_29",
+        "value": 50
+      },
+      {
+        "buffLineId": "damage_absorption_28berserker_29",
+        "value": 350
+      }
+    ]
+  },
+  "berserker_strength": {
+    "name": "Berserker Strength",
+    "sourceUrl": "https://wiki.project1999.com/Berserker_Strength",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 20
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_bedlam_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "damage_absorption_28berserker_29",
+        "value": 50
+      }
+    ]
+  },
+  "aegolism": {
+    "name": "Aegolism",
+    "sourceUrl": "https://wiki.project1999.com/Aegolism",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_26_4_29",
+        "value": 54
+      }
+    ]
+  },
+  "protection_of_the_glades": {
+    "name": "Protection of the Glades",
+    "sourceUrl": "https://wiki.project1999.com/Protection_of_the_Glades",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 24
+      },
+      {
+        "buffLineId": "mana_regeneration_28protection_of_the_glades_29",
+        "value": 6
+      }
+    ]
+  },
+  "heroism": {
+    "name": "Heroism",
+    "sourceUrl": "https://wiki.project1999.com/Heroism",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 52
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 19
+      }
+    ]
+  },
+  "natureskin": {
+    "name": "Natureskin",
+    "sourceUrl": "https://wiki.project1999.com/Natureskin",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 57
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 19
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_4_29",
+        "value": 4
+      }
+    ]
+  },
+  "fortitude": {
+    "name": "Fortitude",
+    "sourceUrl": "https://wiki.project1999.com/Fortitude",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 55
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 18
+      }
+    ]
+  },
+  "resolution": {
+    "name": "Resolution",
+    "sourceUrl": "https://wiki.project1999.com/Resolution",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 44
+      },
+      {
+        "class": "Paladin",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 16
+      }
+    ]
+  },
+  "skin_like_nature": {
+    "name": "Skin Like Nature",
+    "sourceUrl": "https://wiki.project1999.com/Skin_Like_Nature",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 49
+      },
+      {
+        "class": "Ranger",
+        "level": 59
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 16
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_4_29",
+        "value": 2
+      }
+    ]
+  },
+  "skin_like_diamond": {
+    "name": "Skin Like Diamond",
+    "sourceUrl": "https://wiki.project1999.com/Skin_Like_Diamond",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 39
+      },
+      {
+        "class": "Ranger",
+        "level": 54
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 13
+      }
+    ]
+  },
+  "valor": {
+    "name": "Valor",
+    "sourceUrl": "https://wiki.project1999.com/Valor",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 34
+      },
+      {
+        "class": "Paladin",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 13
+      }
+    ]
+  },
+  "skin_like_steel": {
+    "name": "Skin Like Steel",
+    "sourceUrl": "https://wiki.project1999.com/Skin_Like_Steel",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 24
+      },
+      {
+        "class": "Ranger",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "bravery": {
+    "name": "Bravery",
+    "sourceUrl": "https://wiki.project1999.com/Bravery",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 24
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "daring": {
+    "name": "Daring",
+    "sourceUrl": "https://wiki.project1999.com/Daring",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 19
+      },
+      {
+        "class": "Paladin",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 9
+      }
+    ]
+  },
+  "skin_like_rock": {
+    "name": "Skin Like Rock",
+    "sourceUrl": "https://wiki.project1999.com/Skin_Like_Rock",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 14
+      },
+      {
+        "class": "Ranger",
+        "level": 22
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 7
+      }
+    ]
+  },
+  "center": {
+    "name": "Center",
+    "sourceUrl": "https://wiki.project1999.com/Center",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 9
+      },
+      {
+        "class": "Paladin",
+        "level": 22
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 6
+      }
+    ]
+  },
+  "courage": {
+    "name": "Courage",
+    "sourceUrl": "https://wiki.project1999.com/Courage",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 1
+      },
+      {
+        "class": "Paladin",
+        "level": 9
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 4
+      }
+    ]
+  },
+  "skin_like_wood": {
+    "name": "Skin Like Wood",
+    "sourceUrl": "https://wiki.project1999.com/Skin_Like_Wood",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 1
+      },
+      {
+        "class": "Ranger",
+        "level": 9
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 4
+      }
+    ]
+  },
+  "inner_fire": {
+    "name": "Inner Fire",
+    "sourceUrl": "https://wiki.project1999.com/Inner_Fire",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 1
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 3
+      }
+    ]
+  },
+  "shield_of_the_magi": {
+    "name": "Shield of the Magi",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_the_Magi",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 54
+      },
+      {
+        "class": "Magician",
+        "level": 54
+      },
+      {
+        "class": "Necromancer",
+        "level": 54
+      },
+      {
+        "class": "Wizard",
+        "level": 54
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 42
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 250
+      },
+      {
+        "buffLineId": "magic_shield",
+        "value": 24
+      }
+    ]
+  },
+  "bladecoat": {
+    "name": "Bladecoat",
+    "sourceUrl": "https://wiki.project1999.com/Bladecoat",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 56
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 37
+      },
+      {
+        "buffLineId": "damage_shield_28slot_3_29",
+        "value": 6
+      }
+    ]
+  },
+  "arch_shielding": {
+    "name": "Arch Shielding",
+    "sourceUrl": "https://wiki.project1999.com/Arch_Shielding",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 44
+      },
+      {
+        "class": "Magician",
+        "level": 44
+      },
+      {
+        "class": "Necromancer",
+        "level": 44
+      },
+      {
+        "class": "Wizard",
+        "level": 44
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 35
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 150
+      },
+      {
+        "buffLineId": "magic_shield",
+        "value": 20
+      }
+    ]
+  },
+  "thorncoat": {
+    "name": "Thorncoat",
+    "sourceUrl": "https://wiki.project1999.com/Thorncoat",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 49
+      },
+      {
+        "class": "Ranger",
+        "level": 60
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 31
+      },
+      {
+        "buffLineId": "damage_shield_28slot_3_29",
+        "value": 5
+      }
+    ]
+  },
+  "greater_shielding": {
+    "name": "Greater Shielding",
+    "sourceUrl": "https://wiki.project1999.com/Greater_Shielding",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 34
+      },
+      {
+        "class": "Magician",
+        "level": 34
+      },
+      {
+        "class": "Necromancer",
+        "level": 34
+      },
+      {
+        "class": "Wizard",
+        "level": 34
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 29
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "magic_shield",
+        "value": 16
+      }
+    ]
+  },
+  "spikecoat": {
+    "name": "Spikecoat",
+    "sourceUrl": "https://wiki.project1999.com/Spikecoat",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 39
+      },
+      {
+        "class": "Ranger",
+        "level": 49
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "damage_shield_28slot_3_29",
+        "value": 4
+      }
+    ]
+  },
+  "major_shielding": {
+    "name": "Major Shielding",
+    "sourceUrl": "https://wiki.project1999.com/Major_Shielding",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 24
+      },
+      {
+        "class": "Magician",
+        "level": 24
+      },
+      {
+        "class": "Necromancer",
+        "level": 24
+      },
+      {
+        "class": "Wizard",
+        "level": 24
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 23
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 75
+      },
+      {
+        "buffLineId": "magic_shield",
+        "value": 14
+      }
+    ]
+  },
+  "bramblecoat": {
+    "name": "Bramblecoat",
+    "sourceUrl": "https://wiki.project1999.com/Bramblecoat",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 29
+      },
+      {
+        "class": "Ranger",
+        "level": 39
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 18
+      },
+      {
+        "buffLineId": "damage_shield_28slot_3_29",
+        "value": 3
+      }
+    ]
+  },
+  "shielding": {
+    "name": "Shielding",
+    "sourceUrl": "https://wiki.project1999.com/Shielding",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 16
+      },
+      {
+        "class": "Magician",
+        "level": 16
+      },
+      {
+        "class": "Necromancer",
+        "level": 16
+      },
+      {
+        "class": "Wizard",
+        "level": 16
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 18
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 50
+      },
+      {
+        "buffLineId": "magic_shield",
+        "value": 12
+      }
+    ]
+  },
+  "armor_of_protection": {
+    "name": "Armor of Protection",
+    "sourceUrl": "https://wiki.project1999.com/Armor_of_Protection",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 34
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 15
+      }
+    ]
+  },
+  "barbcoat": {
+    "name": "Barbcoat",
+    "sourceUrl": "https://wiki.project1999.com/Barbcoat",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 19
+      },
+      {
+        "class": "Ranger",
+        "level": 30
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 12
+      },
+      {
+        "buffLineId": "damage_shield_28slot_3_29",
+        "value": 2
+      }
+    ]
+  },
+  "lesser_shielding": {
+    "name": "Lesser Shielding",
+    "sourceUrl": "https://wiki.project1999.com/Lesser_Shielding",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 8
+      },
+      {
+        "class": "Magician",
+        "level": 8
+      },
+      {
+        "class": "Necromancer",
+        "level": 8
+      },
+      {
+        "class": "Wizard",
+        "level": 8
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 9
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 30
+      }
+    ]
+  },
+  "thistlecoat": {
+    "name": "Thistlecoat",
+    "sourceUrl": "https://wiki.project1999.com/Thistlecoat",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 9
+      },
+      {
+        "class": "Ranger",
+        "level": 15
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 6
+      },
+      {
+        "buffLineId": "damage_shield_28slot_3_29",
+        "value": 1
+      }
+    ]
+  },
+  "minor_shielding": {
+    "name": "Minor Shielding",
+    "sourceUrl": "https://wiki.project1999.com/Minor_Shielding",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 1
+      },
+      {
+        "class": "Magician",
+        "level": 1
+      },
+      {
+        "class": "Necromancer",
+        "level": 1
+      },
+      {
+        "class": "Wizard",
+        "level": 1
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 4
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 10
+      }
+    ]
+  },
+  "call_of_earth": {
+    "name": "Call of Earth",
+    "sourceUrl": "https://wiki.project1999.com/Call_of_Earth",
+    "classes": [
+      {
+        "class": "Ranger",
+        "level": 50
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "damage_shield_28slot_2_29",
+        "value": 4
+      }
+    ]
+  },
+  "frenzy": {
+    "name": "Frenzy",
+    "sourceUrl": "https://wiki.project1999.com/Frenzy",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 19
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 10
+      }
+    ]
+  },
+  "bulwark_of_faith": {
+    "name": "Bulwark of Faith",
+    "sourceUrl": "https://wiki.project1999.com/Bulwark_of_Faith",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 57
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 37
+      }
+    ]
+  },
+  "aegis": {
+    "name": "Aegis",
+    "sourceUrl": "https://wiki.project1999.com/Aegis",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 57
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 34
+      }
+    ]
+  },
+  "shield_of_words": {
+    "name": "Shield of Words",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Words",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 49
+      },
+      {
+        "class": "Paladin",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 31
+      }
+    ]
+  },
+  "umbra": {
+    "name": "Umbra",
+    "sourceUrl": "https://wiki.project1999.com/Umbra",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 57
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 29
+      }
+    ]
+  },
+  "shroud_of_the_spirits": {
+    "name": "Shroud of the Spirits",
+    "sourceUrl": "https://wiki.project1999.com/Shroud_of_the_Spirits",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 54
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 28
+      }
+    ]
+  },
+  "armor_of_faith": {
+    "name": "Armor of Faith",
+    "sourceUrl": "https://wiki.project1999.com/Armor_of_Faith",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 39
+      },
+      {
+        "class": "Paladin",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 25
+      }
+    ]
+  },
+  "guardian": {
+    "name": "Guardian",
+    "sourceUrl": "https://wiki.project1999.com/Guardian",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 24
+      }
+    ]
+  },
+  "phantom_armor": {
+    "name": "Phantom Armor",
+    "sourceUrl": "https://wiki.project1999.com/Phantom_Armor",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 52
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 22
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 5
+      }
+    ]
+  },
+  "guard": {
+    "name": "Guard",
+    "sourceUrl": "https://wiki.project1999.com/Guard",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 29
+      },
+      {
+        "class": "Paladin",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 19
+      }
+    ]
+  },
+  "shadow": {
+    "name": "Shadow",
+    "sourceUrl": "https://wiki.project1999.com/Shadow",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 19
+      }
+    ]
+  },
+  "phantom_plate": {
+    "name": "Phantom Plate",
+    "sourceUrl": "https://wiki.project1999.com/Phantom_Plate",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 18
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 3
+      }
+    ]
+  },
+  "shifting_shield": {
+    "name": "Shifting Shield",
+    "sourceUrl": "https://wiki.project1999.com/Shifting_Shield",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 18
+      }
+    ]
+  },
+  "shade": {
+    "name": "Shade",
+    "sourceUrl": "https://wiki.project1999.com/Shade",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 16
+      }
+    ]
+  },
+  "obscure": {
+    "name": "Obscure",
+    "sourceUrl": "https://wiki.project1999.com/Obscure",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 13
+      }
+    ]
+  },
+  "phantom_chain": {
+    "name": "Phantom Chain",
+    "sourceUrl": "https://wiki.project1999.com/Phantom_Chain",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 13
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 2
+      }
+    ]
+  },
+  "protect": {
+    "name": "Protect",
+    "sourceUrl": "https://wiki.project1999.com/Protect",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 24
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 13
+      }
+    ]
+  },
+  "spirit_armor": {
+    "name": "Spirit Armor",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_Armor",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 19
+      },
+      {
+        "class": "Necromancer",
+        "level": 16
+      },
+      {
+        "class": "Paladin",
+        "level": 30
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 13
+      }
+    ]
+  },
+  "cloud": {
+    "name": "Cloud",
+    "sourceUrl": "https://wiki.project1999.com/Cloud",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 20
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 10
+      }
+    ]
+  },
+  "turtle_skin": {
+    "name": "Turtle Skin",
+    "sourceUrl": "https://wiki.project1999.com/Turtle_Skin",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 14
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 10
+      }
+    ]
+  },
+  "phantom_leather": {
+    "name": "Phantom Leather",
+    "sourceUrl": "https://wiki.project1999.com/Phantom_Leather",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 16
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 9
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 1
+      }
+    ]
+  },
+  "mist": {
+    "name": "Mist",
+    "sourceUrl": "https://wiki.project1999.com/Mist",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 12
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 7
+      }
+    ]
+  },
+  "holy_armor": {
+    "name": "Holy Armor",
+    "sourceUrl": "https://wiki.project1999.com/Holy_Armor",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 5
+      },
+      {
+        "class": "Paladin",
+        "level": 15
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 6
+      }
+    ]
+  },
+  "scale_skin": {
+    "name": "Scale Skin",
+    "sourceUrl": "https://wiki.project1999.com/Scale_Skin",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 5
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 6
+      }
+    ]
+  },
+  "haze": {
+    "name": "Haze",
+    "sourceUrl": "https://wiki.project1999.com/Haze",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 4
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 4
+      }
+    ]
+  },
+  "shroud_of_pain_recourse": {
+    "name": "Shroud of Pain Recourse",
+    "sourceUrl": "https://wiki.project1999.com/index.php?title=Shroud_of_Pain_Recourse&action=edit&redlink=1",
+    "classes": [
+      {
+        "class": "Shadow Knight",
+        "level": 50
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_7_29",
+        "value": 18
+      }
+    ]
+  },
+  "shadow_vortex_recourse": {
+    "name": "Shadow Vortex Recourse",
+    "sourceUrl": "https://wiki.project1999.com/index.php?title=Shadow_Vortex_Recourse&action=edit&redlink=1",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 20
+      },
+      {
+        "class": "Shadow Knight",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_7_29",
+        "value": 12
+      }
+    ]
+  },
+  "guardian_rhythms": {
+    "name": "Guardian Rhythms",
+    "sourceUrl": "https://wiki.project1999.com/Guardian_Rhythms",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 9
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_1_29",
+        "value": 9,
+        "valueWithInstrument": 25
+      },
+      {
+        "buffLineId": "psalm_2",
+        "value": 35,
+        "valueWithInstrument": 98
+      }
+    ],
+    "instrumentSkill": "percussion"
+  },
+  "nivs_harmonic": {
+    "name": "Niv's Harmonic",
+    "sourceUrl": "https://wiki.project1999.com/Niv%27s_Harmonic",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 58
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_2_29",
+        "value": 24,
+        "valueWithInstrument": 67
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "elemental_rhythms": {
+    "name": "Elemental Rhythms",
+    "sourceUrl": "https://wiki.project1999.com/Elemental_Rhythms",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 9
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_4_29",
+        "value": 6,
+        "valueWithInstrument": 16
+      },
+      {
+        "buffLineId": "layer_2_2c_slot_2_26_3",
+        "value": 35,
+        "valueWithInstrument": 98
+      },
+      {
+        "buffLineId": "psalm_2",
+        "value": 35,
+        "valueWithInstrument": 98
+      }
+    ],
+    "instrumentSkill": "percussion"
+  },
+  "psalm_of_warmth": {
+    "name": "Psalm of Warmth",
+    "sourceUrl": "https://wiki.project1999.com/Psalm_of_Warmth",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 25
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_4_29",
+        "value": 6,
+        "valueWithInstrument": 16
+      },
+      {
+        "buffLineId": "damage_shield_28layer_2_2c_slot_1_29",
+        "value": 13,
+        "valueWithInstrument": 36
+      },
+      {
+        "buffLineId": "bard",
+        "value": 70,
+        "valueWithInstrument": 196
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "psalm_of_vitality": {
+    "name": "Psalm of Vitality",
+    "sourceUrl": "https://wiki.project1999.com/Psalm_of_Vitality",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 29
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_4_29",
+        "value": 6,
+        "valueWithInstrument": 16
+      },
+      {
+        "buffLineId": "psalm",
+        "value": 70,
+        "valueWithInstrument": 196
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "purifying_rhythms": {
+    "name": "Purifying Rhythms",
+    "sourceUrl": "https://wiki.project1999.com/Purifying_Rhythms",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 9
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_4_29",
+        "value": 6,
+        "valueWithInstrument": 16
+      },
+      {
+        "buffLineId": "psalm_2",
+        "value": 35,
+        "valueWithInstrument": 98
+      }
+    ],
+    "instrumentSkill": "percussion"
+  },
+  "strength_of_nature": {
+    "name": "Strength of Nature",
+    "sourceUrl": "https://wiki.project1999.com/Strength_of_Nature",
+    "classes": [
+      {
+        "class": "Ranger",
+        "level": 51
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "hp_28strength_29",
+        "value": 75
+      }
+    ]
+  },
+  "firefist": {
+    "name": "Firefist",
+    "sourceUrl": "https://wiki.project1999.com/Firefist",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 9
+      },
+      {
+        "class": "Ranger",
+        "level": 22
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "grim_aura": {
+    "name": "Grim Aura",
+    "sourceUrl": "https://wiki.project1999.com/Grim_Aura",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 4
+      },
+      {
+        "class": "Shadow Knight",
+        "level": 22
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "call_of_the_predator": {
+    "name": "Call of the Predator",
+    "sourceUrl": "https://wiki.project1999.com/Call_of_the_Predator",
+    "classes": [
+      {
+        "class": "Ranger",
+        "level": 60
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_2_29",
+        "value": 40
+      }
+    ]
+  },
+  "illusion_spirit_wolf": {
+    "name": "Illusion: Spirit Wolf",
+    "sourceUrl": "https://wiki.project1999.com/Illusion:_Spirit_Wolf",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 39
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_2_29",
+        "value": 15
+      }
+    ]
+  },
+  "form_of_the_hunter": {
+    "name": "Form of the Hunter",
+    "sourceUrl": "https://wiki.project1999.com/Form_of_the_Hunter",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 60
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 62
+      },
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 70
+      }
+    ]
+  },
+  "form_of_the_great_wolf": {
+    "name": "Form of the Great Wolf",
+    "sourceUrl": "https://wiki.project1999.com/Form_of_the_Great_Wolf",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 44
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 51
+      },
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 60
+      }
+    ]
+  },
+  "greater_wolf_form": {
+    "name": "Greater Wolf Form",
+    "sourceUrl": "https://wiki.project1999.com/Greater_Wolf_Form",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 34
+      },
+      {
+        "class": "Ranger",
+        "level": 56
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 40
+      },
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 60
+      }
+    ]
+  },
+  "share_wolf_form": {
+    "name": "Share Wolf Form",
+    "sourceUrl": "https://wiki.project1999.com/Share_Wolf_Form",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 39
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 60
+      }
+    ]
+  },
+  "wolf_form": {
+    "name": "Wolf Form",
+    "sourceUrl": "https://wiki.project1999.com/Wolf_Form",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 24
+      },
+      {
+        "class": "Ranger",
+        "level": 49
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 55
+      }
+    ]
+  },
+  "shroud_of_hate_recourse": {
+    "name": "Shroud of Hate Recourse",
+    "sourceUrl": "https://wiki.project1999.com/Shroud_of_Hate_Recourse",
+    "classes": [
+      {
+        "class": "Shadow Knight",
+        "level": 39
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_7_29",
+        "value": 20
+      }
+    ]
+  },
+  "jonthans_provocation": {
+    "name": "Jonthan's Provocation",
+    "sourceUrl": "https://wiki.project1999.com/Jonthan%27s_Provocation",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 45
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "attack_28layer_2_2c_slot_3_26_4_29",
+        "value": 17,
+        "valueWithInstrument": 47
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 50
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "jonthans_inspiration": {
+    "name": "Jonthan's Inspiration",
+    "sourceUrl": "https://wiki.project1999.com/Jonthan%27s_Inspiration",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 58
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "attack_28layer_2_2c_slot_3_26_4_29",
+        "value": 16,
+        "valueWithInstrument": 44
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 63
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "rune_v": {
+    "name": "Rune V",
+    "sourceUrl": "https://wiki.project1999.com/Rune_V",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 52
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 700
+      }
+    ]
+  },
+  "manaskin": {
+    "name": "Manaskin",
+    "sourceUrl": "https://wiki.project1999.com/Manaskin",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 52
+      },
+      {
+        "class": "Wizard",
+        "level": 52
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 600
+      },
+      {
+        "buffLineId": "mana_regeneration_28self_only_29",
+        "value": 1
+      }
+    ]
+  },
+  "rune_iv": {
+    "name": "Rune IV",
+    "sourceUrl": "https://wiki.project1999.com/Rune_IV",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 394
+      }
+    ]
+  },
+  "diamondskin": {
+    "name": "Diamondskin",
+    "sourceUrl": "https://wiki.project1999.com/Diamondskin",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 44
+      },
+      {
+        "class": "Shadow Knight",
+        "level": 59
+      },
+      {
+        "class": "Wizard",
+        "level": 44
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 394
+      }
+    ]
+  },
+  "rune_iii": {
+    "name": "Rune III",
+    "sourceUrl": "https://wiki.project1999.com/Rune_III",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 230
+      }
+    ]
+  },
+  "steelskin": {
+    "name": "Steelskin",
+    "sourceUrl": "https://wiki.project1999.com/Steelskin",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 34
+      },
+      {
+        "class": "Shadow Knight",
+        "level": 56
+      },
+      {
+        "class": "Wizard",
+        "level": 34
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 230
+      }
+    ]
+  },
+  "rune_ii": {
+    "name": "Rune II",
+    "sourceUrl": "https://wiki.project1999.com/Rune_II",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 24
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 118
+      }
+    ]
+  },
+  "leatherskin": {
+    "name": "Leatherskin",
+    "sourceUrl": "https://wiki.project1999.com/Leatherskin",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 24
+      },
+      {
+        "class": "Wizard",
+        "level": 24
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 118
+      }
+    ]
+  },
+  "rune_i": {
+    "name": "Rune I",
+    "sourceUrl": "https://wiki.project1999.com/Rune_I",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 16
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 55
+      }
+    ]
+  },
+  "shieldskin": {
+    "name": "Shieldskin",
+    "sourceUrl": "https://wiki.project1999.com/Shieldskin",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 16
+      },
+      {
+        "class": "Shadow Knight",
+        "level": 34
+      },
+      {
+        "class": "Wizard",
+        "level": 16
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 55
+      }
+    ]
+  },
+  "shield_of_song": {
+    "name": "Shield of Song",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Song",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28shield_of_song_29",
+        "value": 20,
+        "valueWithInstrument": 56
+      },
+      {
+        "buffLineId": "damage_absorption_2c_magic_28song_shield_29",
+        "value": 20,
+        "valueWithInstrument": 56
+      }
+    ],
+    "instrumentSkill": "string"
+  },
+  "psalm_of_mystic_shielding": {
+    "name": "Psalm of Mystic Shielding",
+    "sourceUrl": "https://wiki.project1999.com/Psalm_of_Mystic_Shielding",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 41
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_2c_magic_28psalm_29",
+        "value": 15,
+        "valueWithInstrument": 42
+      },
+      {
+        "buffLineId": "hp_regeneration_28layer_2_2c_slot_3_29",
+        "value": 5,
+        "valueWithInstrument": 14
+      },
+      {
+        "buffLineId": "psalm_2",
+        "value": 70,
+        "valueWithInstrument": 196
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "manasink": {
+    "name": "Manasink",
+    "sourceUrl": "https://wiki.project1999.com/Manasink",
+    "classes": [
+      {
+        "class": "Wizard",
+        "level": 58
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_2c_magic_28manasink_29",
+        "value": 250
+      }
+    ]
+  },
+  "aegis_of_ro": {
+    "name": "Aegis of Ro",
+    "sourceUrl": "https://wiki.project1999.com/Aegis_of_Ro",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 60
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 33
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 33
+      }
+    ]
+  },
+  "cadeau_of_flame": {
+    "name": "Cadeau of Flame",
+    "sourceUrl": "https://wiki.project1999.com/Cadeau_of_Flame",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 56
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 33
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 33
+      }
+    ]
+  },
+  "shield_of_blades": {
+    "name": "Shield of Blades",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Blades",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 58
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 32
+      }
+    ]
+  },
+  "legacy_of_thorn": {
+    "name": "Legacy of Thorn",
+    "sourceUrl": "https://wiki.project1999.com/Legacy_of_Thorn",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 59
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 28
+      }
+    ]
+  },
+  "boon_of_immolation": {
+    "name": "Boon of Immolation",
+    "sourceUrl": "https://wiki.project1999.com/Boon_of_Immolation",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 53
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 25
+      }
+    ]
+  },
+  "shield_of_lava": {
+    "name": "Shield of Lava",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Lava",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 25
+      }
+    ]
+  },
+  "shield_of_thorns_spell": {
+    "name": "Shield of Thorns (Spell)",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Thorns_(Spell)",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 24
+      }
+    ]
+  },
+  "barrier_of_combustion": {
+    "name": "Barrier of Combustion",
+    "sourceUrl": "https://wiki.project1999.com/Barrier_of_Combustion",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 22
+      }
+    ]
+  },
+  "shield_of_spikes": {
+    "name": "Shield of Spikes",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Spikes",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 39
+      },
+      {
+        "class": "Ranger",
+        "level": 58
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 17
+      }
+    ]
+  },
+  "inferno_shield": {
+    "name": "Inferno Shield",
+    "sourceUrl": "https://wiki.project1999.com/Inferno_Shield",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 15
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 20
+      }
+    ]
+  },
+  "shield_of_brambles": {
+    "name": "Shield of Brambles",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Brambles",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 29
+      },
+      {
+        "class": "Ranger",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 12
+      }
+    ]
+  },
+  "banshee_aura": {
+    "name": "Banshee Aura",
+    "sourceUrl": "https://wiki.project1999.com/Banshee_Aura",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 16
+      },
+      {
+        "class": "Shadow Knight",
+        "level": 54
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 12
+      }
+    ]
+  },
+  "feedback": {
+    "name": "Feedback",
+    "sourceUrl": "https://wiki.project1999.com/Feedback",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 11
+      }
+    ]
+  },
+  "shield_of_flame": {
+    "name": "Shield of Flame",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Flame",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 20
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 9
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 15
+      }
+    ]
+  },
+  "shield_of_barbs": {
+    "name": "Shield of Barbs",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Barbs",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 19
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 9
+      }
+    ]
+  },
+  "shield_of_thistles": {
+    "name": "Shield of Thistles",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Thistles",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 9
+      },
+      {
+        "class": "Ranger",
+        "level": 30
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 6
+      }
+    ]
+  },
+  "shield_of_fire": {
+    "name": "Shield of Fire",
+    "sourceUrl": "https://wiki.project1999.com/Shield_of_Fire",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 8
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 5
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 10
+      }
+    ]
+  },
+  "okeils_radiation": {
+    "name": "O'Keils Radiation",
+    "sourceUrl": "https://wiki.project1999.com/O%27Keils_Radiation",
+    "classes": [
+      {
+        "class": "Wizard",
+        "level": 4
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 2
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 10
+      }
+    ]
+  },
+  "illusion_fire_elemental": {
+    "name": "Illusion: Fire Elemental",
+    "sourceUrl": "https://wiki.project1999.com/Illusion:_Fire_Elemental",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 34
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_2_29",
+        "value": 16
+      }
+    ]
+  },
+  "okeils_flickering_flame": {
+    "name": "O'Keils Flickering Flame",
+    "sourceUrl": "https://wiki.project1999.com/O%27Keils_Flickering_Flame",
+    "classes": [
+      {
+        "class": "Wizard",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_2_29",
+        "value": 5
+      },
+      {
+        "buffLineId": "slot_3",
+        "value": 10
+      }
+    ]
+  },
+  "psalm_of_cooling": {
+    "name": "Psalm of Cooling",
+    "sourceUrl": "https://wiki.project1999.com/Psalm_of_Cooling",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 33
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28layer_2_2c_slot_1_29",
+        "value": 13,
+        "valueWithInstrument": 36
+      },
+      {
+        "buffLineId": "layer_2_2c_slot_2_26_3",
+        "value": 70,
+        "valueWithInstrument": 196
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "wonderous_rapidity": {
+    "name": "Wonderous Rapidity",
+    "sourceUrl": "https://wiki.project1999.com/Wonderous_Rapidity",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 58
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 70
+      }
+    ]
+  },
+  "aanyas_quickening": {
+    "name": "Aanya's Quickening",
+    "sourceUrl": "https://wiki.project1999.com/Aanya%27s_Quickening",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 53
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 64
+      }
+    ]
+  },
+  "swift_like_the_wind": {
+    "name": "Swift Like The Wind",
+    "sourceUrl": "https://wiki.project1999.com/Swift_Like_The_Wind",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 60
+      }
+    ]
+  },
+  "celerity": {
+    "name": "Celerity",
+    "sourceUrl": "https://wiki.project1999.com/Celerity",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 39
+      },
+      {
+        "class": "Shaman",
+        "level": 56
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 50
+      }
+    ]
+  },
+  "haste": {
+    "name": "Haste",
+    "sourceUrl": "https://wiki.project1999.com/Haste",
+    "classes": [
+      {
+        "class": "Ranger",
+        "level": 40
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 50
+      }
+    ]
+  },
+  "vilias_chorus_of_celerity": {
+    "name": "Vilia's Chorus of Celerity",
+    "sourceUrl": "https://wiki.project1999.com/Vilia%27s_Chorus_of_Celerity",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 54
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 45
+      }
+    ]
+  },
+  "alacrity": {
+    "name": "Alacrity",
+    "sourceUrl": "https://wiki.project1999.com/Alacrity",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 24
+      },
+      {
+        "class": "Shaman",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "quickness": {
+    "name": "Quickness",
+    "sourceUrl": "https://wiki.project1999.com/Quickness",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 16
+      },
+      {
+        "class": "Shaman",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 30
+      }
+    ]
+  },
+  "verses_of_victory": {
+    "name": "Verses of Victory",
+    "sourceUrl": "https://wiki.project1999.com/Verses_of_Victory",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 50
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 30
+      }
+    ]
+  },
+  "vilias_verses_of_celerity": {
+    "name": "Vilia's Verses of Celerity",
+    "sourceUrl": "https://wiki.project1999.com/Vilia%27s_Verses_of_Celerity",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 36
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 20
+      }
+    ]
+  },
+  "composition_of_ervaj": {
+    "name": "Composition of Ervaj",
+    "sourceUrl": "https://wiki.project1999.com/Composition_of_Ervaj",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "haste_28ervaj_2f_22v2_22_29",
+        "value": 10
+      }
+    ]
+  },
+  "melody_of_ervaj": {
+    "name": "Melody of Ervaj",
+    "sourceUrl": "https://wiki.project1999.com/Melody_of_Ervaj",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 50
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "haste_28ervaj_2f_22v2_22_29",
+        "value": 5
+      }
+    ]
+  },
+  "talisman_of_kragg": {
+    "name": "Talisman of Kragg",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_Kragg",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 55
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 380
+      }
+    ]
+  },
+  "talisman_of_altuna": {
+    "name": "Talisman of Altuna",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_Altuna",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 250
+      }
+    ]
+  },
+  "talisman_of_tnarg": {
+    "name": "Talisman of Tnarg",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_Tnarg",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 150
+      }
+    ]
+  },
+  "divine_strength": {
+    "name": "Divine Strength",
+    "sourceUrl": "https://wiki.project1999.com/Divine_Strength",
+    "classes": [
+      {
+        "class": "Paladin",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_28strength_29",
+        "value": 200
+      }
+    ]
+  },
+  "divine_glory": {
+    "name": "Divine Glory",
+    "sourceUrl": "https://wiki.project1999.com/Divine_Glory",
+    "classes": [
+      {
+        "class": "Paladin",
+        "level": 53
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_28strength_29",
+        "value": 100
+      }
+    ]
+  },
+  "regrowth_of_the_grove": {
+    "name": "Regrowth of the Grove",
+    "sourceUrl": "https://wiki.project1999.com/Regrowth_of_the_Grove",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 58
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 15
+      }
+    ]
+  },
+  "regrowth": {
+    "name": "Regrowth",
+    "sourceUrl": "https://wiki.project1999.com/Regrowth",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 54
+      },
+      {
+        "class": "Shaman",
+        "level": 52
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 15
+      }
+    ]
+  },
+  "chloroplast": {
+    "name": "Chloroplast",
+    "sourceUrl": "https://wiki.project1999.com/Chloroplast",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 44
+      },
+      {
+        "class": "Shaman",
+        "level": 39
+      },
+      {
+        "class": "Ranger",
+        "level": 55
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "pack_chloroplast": {
+    "name": "Pack Chloroplast",
+    "sourceUrl": "https://wiki.project1999.com/Pack_Chloroplast",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 49
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "pack_regeneration": {
+    "name": "Pack Regeneration",
+    "sourceUrl": "https://wiki.project1999.com/Pack_Regeneration",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 39
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 5
+      }
+    ]
+  },
+  "regeneration": {
+    "name": "Regeneration",
+    "sourceUrl": "https://wiki.project1999.com/Regeneration",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 34
+      },
+      {
+        "class": "Shaman",
+        "level": 24
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 5
+      }
+    ]
+  },
+  "divine_purpose": {
+    "name": "Divine Purpose",
+    "sourceUrl": "https://wiki.project1999.com/Divine_Purpose",
+    "classes": [
+      {
+        "class": "Paladin",
+        "level": 39
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "form_of_the_great_bear": {
+    "name": "Form of the Great Bear",
+    "sourceUrl": "https://wiki.project1999.com/Form_of_the_Great_Bear",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 55
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 2
+      }
+    ]
+  },
+  "spirit_of_oak": {
+    "name": "Spirit of Oak",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_of_Oak",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 59
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_3_26_6_29",
+        "value": 13
+      }
+    ]
+  },
+  "treeform": {
+    "name": "Treeform",
+    "sourceUrl": "https://wiki.project1999.com/Treeform",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 9
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_3_26_6_29",
+        "value": 5
+      }
+    ]
+  },
+  "illusion_troll": {
+    "name": "Illusion: Troll",
+    "sourceUrl": "https://wiki.project1999.com/Illusion:_Troll",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 20
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_3_26_6_29",
+        "value": 1
+      }
+    ]
+  },
+  "hymn_of_restoration": {
+    "name": "Hymn of Restoration",
+    "sourceUrl": "https://wiki.project1999.com/Hymn_of_Restoration",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 6
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28layer_2_2c_slot_1_29",
+        "value": 13,
+        "valueWithInstrument": 36
+      }
+    ],
+    "instrumentSkill": "string"
+  },
+  "cantata_of_replenishment": {
+    "name": "Cantata of Replenishment",
+    "sourceUrl": "https://wiki.project1999.com/Cantata_of_Replenishment",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 55
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28layer_2_2c_slot_1_29",
+        "value": 12,
+        "valueWithInstrument": 33
+      },
+      {
+        "buffLineId": "mana_regeneration_28cantata_29",
+        "value": 13
+      }
+    ],
+    "instrumentSkill": "string"
+  },
+  "cantata_of_soothing": {
+    "name": "Cantata of Soothing",
+    "sourceUrl": "https://wiki.project1999.com/Cantata_of_Soothing",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 34
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28layer_2_2c_slot_1_29",
+        "value": 4,
+        "valueWithInstrument": 11
+      },
+      {
+        "buffLineId": "mana_regeneration_28cantata_29",
+        "value": 5
+      }
+    ],
+    "instrumentSkill": null
+  },
+  "gift_of_brilliance": {
+    "name": "Gift of Brilliance",
+    "sourceUrl": "https://wiki.project1999.com/Gift_of_Brilliance",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_28primary_29",
+        "value": 150
+      },
+      {
+        "buffLineId": "mana_regeneration_28gift_29",
+        "value": 2
+      }
+    ]
+  },
+  "gift_of_insight": {
+    "name": "Gift of Insight",
+    "sourceUrl": "https://wiki.project1999.com/Gift_of_Insight",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 55
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_28primary_29",
+        "value": 100
+      },
+      {
+        "buffLineId": "mana_regeneration_28gift_29",
+        "value": 1
+      }
+    ]
+  },
+  "gift_of_magic": {
+    "name": "Gift of Magic",
+    "sourceUrl": "https://wiki.project1999.com/Gift_of_Magic",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_28primary_29",
+        "value": 50
+      }
+    ]
+  },
+  "gift_of_pure_thought": {
+    "name": "Gift of Pure Thought",
+    "sourceUrl": "https://wiki.project1999.com/Gift_of_Pure_Thought",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 59
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28clarity_29",
+        "value": 11
+      }
+    ]
+  },
+  "clarity_ii": {
+    "name": "Clarity II",
+    "sourceUrl": "https://wiki.project1999.com/Clarity_II",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 54
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28clarity_29",
+        "value": 11
+      }
+    ]
+  },
+  "boon_of_the_clear_mind": {
+    "name": "Boon of the Clear Mind",
+    "sourceUrl": "https://wiki.project1999.com/Boon_of_the_Clear_Mind",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 52
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28clarity_29",
+        "value": 7
+      }
+    ]
+  },
+  "clarity": {
+    "name": "Clarity",
+    "sourceUrl": "https://wiki.project1999.com/Clarity",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28clarity_29",
+        "value": 7
+      }
+    ]
+  },
+  "breeze": {
+    "name": "Breeze",
+    "sourceUrl": "https://wiki.project1999.com/Breeze",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 16
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28clarity_29",
+        "value": 2
+      }
+    ]
+  },
+  "mask_of_the_hunter": {
+    "name": "Mask of the Hunter",
+    "sourceUrl": "https://wiki.project1999.com/Mask_of_the_Hunter",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 60
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28gift_29",
+        "value": 3
+      }
+    ]
+  },
+  "form_of_the_howler": {
+    "name": "Form of the Howler",
+    "sourceUrl": "https://wiki.project1999.com/Form_of_the_Howler",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 54
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28gift_29",
+        "value": 2
+      },
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 67
+      }
+    ]
+  },
+  "cassindras_chorus_of_clarity": {
+    "name": "Cassindra's Chorus of Clarity",
+    "sourceUrl": "https://wiki.project1999.com/Cassindra%27s_Chorus_of_Clarity",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 32
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28chorus_29",
+        "value": 7,
+        "valueWithInstrument": 14
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "cassindras_chant_of_clarity": {
+    "name": "Cassindra's Chant of Clarity",
+    "sourceUrl": "https://wiki.project1999.com/Cassindra%27s_Chant_of_Clarity",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 20
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28chorus_29",
+        "value": 2
+      }
+    ]
+  },
+  "demi_lich": {
+    "name": "Demi Lich",
+    "sourceUrl": "https://wiki.project1999.com/Demi_Lich",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28lich_29",
+        "value": 31
+      }
+    ]
+  },
+  "arch_lich": {
+    "name": "Arch Lich",
+    "sourceUrl": "https://wiki.project1999.com/Arch_Lich",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28lich_29",
+        "value": 20
+      }
+    ]
+  },
+  "lich": {
+    "name": "Lich",
+    "sourceUrl": "https://wiki.project1999.com/Lich",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 49
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28lich_29",
+        "value": 20
+      }
+    ]
+  },
+  "call_of_bones": {
+    "name": "Call of Bones",
+    "sourceUrl": "https://wiki.project1999.com/Call_of_Bones",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28lich_29",
+        "value": 8
+      }
+    ]
+  },
+  "allure_of_death": {
+    "name": "Allure of Death",
+    "sourceUrl": "https://wiki.project1999.com/Allure_of_Death",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 20
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28lich_29",
+        "value": 4
+      }
+    ]
+  },
+  "dark_pact": {
+    "name": "Dark Pact",
+    "sourceUrl": "https://wiki.project1999.com/Dark_Pact",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 8
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "mana_regeneration_28lich_29",
+        "value": 2
+      }
+    ]
+  },
+  "circle_of_summer": {
+    "name": "Circle of Summer",
+    "sourceUrl": "https://wiki.project1999.com/Circle_of_Summer",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 52
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary",
+        "value": 45
+      }
+    ]
+  },
+  "resist_cold": {
+    "name": "Resist Cold",
+    "sourceUrl": "https://wiki.project1999.com/Resist_Cold",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 34
+      },
+      {
+        "class": "Druid",
+        "level": 24
+      },
+      {
+        "class": "Ranger",
+        "level": 49
+      },
+      {
+        "class": "Shaman",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary",
+        "value": 40
+      }
+    ]
+  },
+  "endure_cold": {
+    "name": "Endure Cold",
+    "sourceUrl": "https://wiki.project1999.com/Endure_Cold",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 9
+      },
+      {
+        "class": "Druid",
+        "level": 1
+      },
+      {
+        "class": "Ranger",
+        "level": 9
+      },
+      {
+        "class": "Shaman",
+        "level": 5
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary",
+        "value": 20
+      }
+    ]
+  },
+  "elemental_armor": {
+    "name": "Elemental Armor",
+    "sourceUrl": "https://wiki.project1999.com/Elemental_Armor",
+    "classes": [
+      {
+        "class": "Magician",
+        "level": 44
+      },
+      {
+        "class": "Wizard",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "flower_2farmor",
+        "value": 30
+      },
+      {
+        "buffLineId": "slot_4",
+        "value": 30
+      }
+    ]
+  },
+  "talisman_of_jasinth": {
+    "name": "Talisman of Jasinth",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_Jasinth",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 51
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_2",
+        "value": 45
+      }
+    ]
+  },
+  "resist_disease": {
+    "name": "Resist Disease",
+    "sourceUrl": "https://wiki.project1999.com/Resist_Disease",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 39
+      },
+      {
+        "class": "Druid",
+        "level": 44
+      },
+      {
+        "class": "Necromancer",
+        "level": 34
+      },
+      {
+        "class": "Paladin",
+        "level": 51
+      },
+      {
+        "class": "Shaman",
+        "level": 34
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_2",
+        "value": 40
+      }
+    ]
+  },
+  "endure_disease": {
+    "name": "Endure Disease",
+    "sourceUrl": "https://wiki.project1999.com/Endure_Disease",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 14
+      },
+      {
+        "class": "Druid",
+        "level": 19
+      },
+      {
+        "class": "Necromancer",
+        "level": 12
+      },
+      {
+        "class": "Paladin",
+        "level": 39
+      },
+      {
+        "class": "Shadow Knight",
+        "level": 30
+      },
+      {
+        "class": "Shaman",
+        "level": 9
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_2",
+        "value": 20
+      }
+    ]
+  },
+  "resistant_skin": {
+    "name": "Resistant Skin",
+    "sourceUrl": "https://wiki.project1999.com/Resistant_Skin",
+    "classes": [
+      {
+        "class": "Wizard",
+        "level": 12
+      }
+    ],
+    "targetType": "self",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_2",
+        "value": 15
+      },
+      {
+        "buffLineId": "primary_4",
+        "value": 15
+      }
+    ]
+  },
+  "circle_of_winter": {
+    "name": "Circle of Winter",
+    "sourceUrl": "https://wiki.project1999.com/Circle_of_Winter",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 51
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "slot_1",
+        "value": 45
+      }
+    ]
+  },
+  "resist_fire": {
+    "name": "Resist Fire",
+    "sourceUrl": "https://wiki.project1999.com/Resist_Fire",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 34
+      },
+      {
+        "class": "Druid",
+        "level": 24
+      },
+      {
+        "class": "Ranger",
+        "level": 49
+      },
+      {
+        "class": "Shaman",
+        "level": 29
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "slot_1",
+        "value": 40
+      }
+    ]
+  },
+  "endure_fire": {
+    "name": "Endure Fire",
+    "sourceUrl": "https://wiki.project1999.com/Endure_Fire",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 9
+      },
+      {
+        "class": "Druid",
+        "level": 1
+      },
+      {
+        "class": "Ranger",
+        "level": 9
+      },
+      {
+        "class": "Shaman",
+        "level": 5
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "slot_1",
+        "value": 20
+      }
+    ]
+  },
+  "group_resist_magic": {
+    "name": "Group Resist Magic",
+    "sourceUrl": "https://wiki.project1999.com/Group_Resist_Magic",
+    "classes": [
+      {
+        "class": "Enchanter",
+        "level": 49
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_3",
+        "value": 55
+      }
+    ]
+  },
+  "resist_magic": {
+    "name": "Resist Magic",
+    "sourceUrl": "https://wiki.project1999.com/Resist_Magic",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 44
+      },
+      {
+        "class": "Druid",
+        "level": 49
+      },
+      {
+        "class": "Enchanter",
+        "level": 39
+      },
+      {
+        "class": "Paladin",
+        "level": 55
+      },
+      {
+        "class": "Shaman",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_3",
+        "value": 40
+      }
+    ]
+  },
+  "endure_magic": {
+    "name": "Endure Magic",
+    "sourceUrl": "https://wiki.project1999.com/Endure_Magic",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 19
+      },
+      {
+        "class": "Druid",
+        "level": 34
+      },
+      {
+        "class": "Enchanter",
+        "level": 20
+      },
+      {
+        "class": "Paladin",
+        "level": 30
+      },
+      {
+        "class": "Shaman",
+        "level": 19
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_3",
+        "value": 20
+      }
+    ]
+  },
+  "talisman_of_shadoo": {
+    "name": "Talisman of Shadoo",
+    "sourceUrl": "https://wiki.project1999.com/Talisman_of_Shadoo",
+    "classes": [
+      {
+        "class": "Shaman",
+        "level": 53
+      }
+    ],
+    "targetType": "group",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_4",
+        "value": 45
+      }
+    ]
+  },
+  "resist_poison": {
+    "name": "Resist Poison",
+    "sourceUrl": "https://wiki.project1999.com/Resist_Poison",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 34
+      },
+      {
+        "class": "Druid",
+        "level": 44
+      },
+      {
+        "class": "Shaman",
+        "level": 39
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_4",
+        "value": 40
+      }
+    ]
+  },
+  "endure_poison": {
+    "name": "Endure Poison",
+    "sourceUrl": "https://wiki.project1999.com/Endure_Poison",
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 9
+      },
+      {
+        "class": "Druid",
+        "level": 19
+      },
+      {
+        "class": "Paladin",
+        "level": 22
+      },
+      {
+        "class": "Shaman",
+        "level": 14
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "primary_4",
+        "value": 20
+      }
+    ]
+  },
+  "dead_man_floating": {
+    "name": "Dead Man Floating",
+    "sourceUrl": "https://wiki.project1999.com/Dead_Man_Floating",
+    "classes": [
+      {
+        "class": "Necromancer",
+        "level": 44
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "dead_man_floating",
+        "value": 70
+      }
+    ]
+  },
+  "psalm_of_purity": {
+    "name": "Psalm of Purity",
+    "sourceUrl": "https://wiki.project1999.com/Psalm_of_Purity",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 37
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "psalm_3",
+        "value": 70,
+        "valueWithInstrument": 196
+      }
+    ],
+    "instrumentSkill": "singing"
+  },
+  "selos_song_of_travel": {
+    "name": "Selo's Song of Travel",
+    "sourceUrl": "https://wiki.project1999.com/Selo%27s_Song_of_Travel",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 51
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 65
+      }
+    ]
+  },
+  "selos_accelerando": {
+    "name": "Selo's Accelerando",
+    "sourceUrl": "https://wiki.project1999.com/Selo%27s_Accelerando",
+    "classes": [
+      {
+        "class": "Bard",
+        "level": 5
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": true,
+    "castTimeSec": 3,
+    "durationSec": 18,
+    "slots": [
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 65
+      }
+    ]
+  },
+  "spirit_of_cheetah": {
+    "name": "Spirit of Cheetah",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_of_Cheetah",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 60
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 115
+      }
+    ]
+  },
+  "scale_of_wolf": {
+    "name": "Scale of Wolf",
+    "sourceUrl": "https://wiki.project1999.com/Scale_of_Wolf",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 24
+      },
+      {
+        "class": "Shaman",
+        "level": 24
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 70
+      }
+    ]
+  },
+  "spirit_of_wolf": {
+    "name": "Spirit of Wolf",
+    "sourceUrl": "https://wiki.project1999.com/Spirit_of_Wolf",
+    "classes": [
+      {
+        "class": "Druid",
+        "level": 14
+      },
+      {
+        "class": "Ranger",
+        "level": 30
+      },
+      {
+        "class": "Shaman",
+        "level": 9
+      }
+    ],
+    "targetType": "single",
+    "isBardSong": false,
+    "slots": [
+      {
+        "buffLineId": "speed_28primary_29",
+        "value": 55
+      }
+    ]
+  }
+}

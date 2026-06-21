@@ -1,0 +1,1588 @@
+{
+  "staff_of_the_serpent": {
+    "name": "Speed of the Shissar",
+    "itemName": "Staff of the Serpent",
+    "itemUrl": "https://wiki.project1999.com/Staff_of_the_Serpent",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Enchanter"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "agility_28speed_augmentation_29",
+        "value": 40
+      },
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 12
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 66
+      }
+    ]
+  },
+  "hammer_of_the_dragonborn": {
+    "name": "Primal Essence",
+    "itemName": "Hammer of the Dragonborn",
+    "itemUrl": "https://wiki.project1999.com/Hammer_of_the_Dragonborn",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Shaman"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "agility_28avatar_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "dexterity_28avatar_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "strength_28avatar_29",
+        "value": 20
+      }
+    ]
+  },
+  "lute_of_the_howler": {
+    "name": "Illusion: Werewolf",
+    "itemName": "Lute of the Howler",
+    "itemUrl": "https://wiki.project1999.com/Lute_of_the_Howler",
+    "requiredLevel": 40,
+    "levelKnown": true,
+    "classRestriction": [
+      "Bard"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "strength_28illusion_29",
+        "value": 30
+      },
+      {
+        "buffLineId": "attack_28slot_2_29",
+        "value": 61
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "donals_helm_of_mourning": {
+    "name": "Yaulp II",
+    "itemName": "Donal's Helm of Mourning",
+    "itemUrl": "https://wiki.project1999.com/Donal%27s_Helm_of_Mourning",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Cleric"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "mask_of_war": {
+    "name": "Yaulp II",
+    "itemName": "Mask of War",
+    "itemUrl": "https://wiki.project1999.com/Mask_of_War",
+    "requiredLevel": 35,
+    "levelKnown": true,
+    "classRestriction": [
+      "Cleric",
+      "Paladin"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 20
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "initiate_symbol_of_rallos_zek": {
+    "name": "Yaulp",
+    "itemName": "Initiate Symbol of Rallos Zek",
+    "itemUrl": "https://wiki.project1999.com/Initiate_Symbol_of_Rallos_Zek",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Shaman"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "strength_28short_duration_yaulp_29",
+        "value": 10
+      },
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 6
+      }
+    ]
+  },
+  "robe_of_the_spring": {
+    "name": "Skin Like Nature",
+    "itemName": "Robe of the Spring",
+    "itemUrl": "https://wiki.project1999.com/Robe_of_the_Spring",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 16
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_4_29",
+        "value": 2
+      }
+    ]
+  },
+  "elder_spiritists_greaves": {
+    "name": "Skin Like Diamond",
+    "itemName": "Elder Spiritist's Greaves",
+    "itemUrl": "https://wiki.project1999.com/Elder_Spiritist%27s_Greaves",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 13
+      }
+    ]
+  },
+  "donals_vambraces_of_mourning": {
+    "name": "Valor",
+    "itemName": "Donal's Vambraces of Mourning",
+    "itemUrl": "https://wiki.project1999.com/Donal%27s_Vambraces_of_Mourning",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Cleric"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 13
+      }
+    ]
+  },
+  "deepwater_helm": {
+    "name": "Daring",
+    "itemName": "Deepwater Helm",
+    "itemUrl": "https://wiki.project1999.com/Deepwater_Helm",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Paladin"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 9
+      }
+    ]
+  },
+  "mountain_death_belt": {
+    "name": "Skin like Rock",
+    "itemName": "Mountain Death Belt",
+    "itemUrl": "https://wiki.project1999.com/Mountain_Death_Belt",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Warrior",
+      "Cleric",
+      "Paladin",
+      "Rogue"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 7
+      }
+    ]
+  },
+  "golden_locket_locket_of_courage": {
+    "name": "Courage",
+    "itemName": "Golden Locket (Locket of Courage)",
+    "itemUrl": "https://wiki.project1999.com/Golden_Locket_(Locket_of_Courage)",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Cleric",
+      "Paladin"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_1_29",
+        "value": 4
+      }
+    ]
+  },
+  "tri_plated_golden_hackle_hammer": {
+    "name": "Arch Shielding",
+    "itemName": "Tri-Plated Golden Hackle Hammer",
+    "itemUrl": "https://wiki.project1999.com/Tri-Plated_Golden_Hackle_Hammer",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Warrior",
+      "Cleric",
+      "Paladin",
+      "Ranger",
+      "Shadow Knight",
+      "Druid",
+      "Monk",
+      "Bard",
+      "Rogue"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 35
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 150
+      }
+    ]
+  },
+  "girdle_of_living_thorns": {
+    "name": "Spikecoat",
+    "itemName": "Girdle of Living Thorns",
+    "itemUrl": "https://wiki.project1999.com/Girdle_of_Living_Thorns",
+    "requiredLevel": 51,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid",
+      "Ranger"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "damage_shield_28slot_3_29",
+        "value": 4
+      }
+    ]
+  },
+  "blood_ember_breastplate": {
+    "name": "Major Shielding",
+    "itemName": "Blood Ember Breastplate",
+    "itemUrl": "https://wiki.project1999.com/Blood_Ember_Breastplate",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Shadow Knight"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 23
+      },
+      {
+        "buffLineId": "hp_28shielding_2f_talisman_29",
+        "value": 75
+      }
+    ]
+  },
+  "jaundiced_bone_breastplate": {
+    "name": "Bramblecoat",
+    "itemName": "Jaundiced Bone Breastplate",
+    "itemUrl": "https://wiki.project1999.com/Jaundiced_Bone_Breastplate",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Shaman"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 18
+      },
+      {
+        "buffLineId": "damage_shield_28slot_3_29",
+        "value": 3
+      }
+    ]
+  },
+  "cobalt_vambraces": {
+    "name": "Lesser Shielding",
+    "itemName": "Cobalt Vambraces",
+    "itemUrl": "https://wiki.project1999.com/Cobalt_Vambraces",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Warrior"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_2_29",
+        "value": 9
+      }
+    ]
+  },
+  "breastplate_of_the_untamed": {
+    "name": "Call of Earth",
+    "itemName": "Breastplate of the Untamed",
+    "itemUrl": "https://wiki.project1999.com/Breastplate_of_the_Untamed",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Ranger"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 25
+      }
+    ]
+  },
+  "forest_stalkers_breastplate": {
+    "name": "Call of Earth",
+    "itemName": "Forest Stalker's Breastplate",
+    "itemUrl": "https://wiki.project1999.com/Forest_Stalker%27s_Breastplate",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Ranger"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 25
+      }
+    ]
+  },
+  "golden_leaf_breastplate": {
+    "name": "Call of Earth",
+    "itemName": "Golden Leaf Breastplate",
+    "itemUrl": "https://wiki.project1999.com/Golden_Leaf_Breastplate",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Ranger"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 25
+      }
+    ]
+  },
+  "runed_scouts_breastplate": {
+    "name": "Call of Earth",
+    "itemName": "Runed Scout's Breastplate",
+    "itemUrl": "https://wiki.project1999.com/Runed_Scout%27s_Breastplate",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Ranger"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_3_29",
+        "value": 25
+      }
+    ]
+  },
+  "donals_gauntlets_of_mourning": {
+    "name": "Armor of Faith",
+    "itemName": "Donal's Gauntlets of Mourning",
+    "itemUrl": "https://wiki.project1999.com/Donal%27s_Gauntlets_of_Mourning",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Cleric"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 25
+      }
+    ]
+  },
+  "bone_amulet_of_blade_turning": {
+    "name": "Guard",
+    "itemName": "Bone Amulet of Blade Turning",
+    "itemUrl": "https://wiki.project1999.com/Bone_Amulet_of_Blade_Turning",
+    "requiredLevel": 20,
+    "levelKnown": true,
+    "classRestriction": [
+      "Cleric",
+      "Druid",
+      "Shaman"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 19
+      }
+    ]
+  },
+  "shissar_guardian_staff": {
+    "name": "Phantom Plate",
+    "itemName": "Shissar Guardian Staff",
+    "itemUrl": "https://wiki.project1999.com/Shissar_Guardian_Staff",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Magician"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 18
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 3
+      }
+    ]
+  },
+  "runed_sea_shell_cloud": {
+    "name": "Cloud",
+    "itemName": "Runed Sea Shell (Cloud)",
+    "itemUrl": "https://wiki.project1999.com/Runed_Sea_Shell_(Cloud)",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Enchanter"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 10
+      }
+    ]
+  },
+  "lodizal_shell_boots": {
+    "name": "Turtle Skin",
+    "itemName": "Lodizal Shell Boots",
+    "itemUrl": "https://wiki.project1999.com/Lodizal_Shell_Boots",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Warrior",
+      "Paladin",
+      "Ranger",
+      "Shadow Knight",
+      "Bard",
+      "Rogue"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_4_29",
+        "value": 10
+      }
+    ]
+  },
+  "celestial_fists": {
+    "name": "Celestial Tranquility",
+    "itemName": "Celestial Fists",
+    "itemUrl": "https://wiki.project1999.com/Celestial_Fists",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Monk"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "ac_28slot_8_29",
+        "value": 12
+      },
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 40
+      },
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "robe_of_the_whistling_fists": {
+    "name": "Jonthan's Whistling Warsong",
+    "itemName": "Robe of the Whistling Fists",
+    "itemUrl": "https://wiki.project1999.com/Robe_of_the_Whistling_Fists",
+    "requiredLevel": 30,
+    "levelKnown": true,
+    "classRestriction": [
+      "Monk"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "ac_28layer_2_2c_slot_3_29",
+        "value": 10,
+        "valueWithInstrument": 28
+      }
+    ]
+  },
+  "berserkers_ring": {
+    "name": "Firefist",
+    "itemName": "Berserkers Ring",
+    "itemUrl": "https://wiki.project1999.com/Berserkers_Ring",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Warrior",
+      "Paladin",
+      "Ranger",
+      "Shadow Knight",
+      "Monk",
+      "Bard",
+      "Rogue"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "golden_star_slippers": {
+    "name": "Firefist",
+    "itemName": "Golden Star Slippers",
+    "itemUrl": "https://wiki.project1999.com/Golden_Star_Slippers",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Monk"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "grand_masters_slippers": {
+    "name": "Firefist",
+    "itemName": "Grand Master's Slippers",
+    "itemUrl": "https://wiki.project1999.com/Grand_Master%27s_Slippers",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Monk"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "silver_moon_slippers": {
+    "name": "Firefist",
+    "itemName": "Silver Moon Slippers",
+    "itemUrl": "https://wiki.project1999.com/Silver_Moon_Slippers",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Monk"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "white_lotus_slippers": {
+    "name": "Firefist",
+    "itemName": "White Lotus Slippers",
+    "itemUrl": "https://wiki.project1999.com/White_Lotus_Slippers",
+    "requiredLevel": 51,
+    "levelKnown": true,
+    "classRestriction": [
+      "Monk"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "hand_of_shadow": {
+    "name": "Grim Aura",
+    "itemName": "Hand of Shadow",
+    "itemUrl": "https://wiki.project1999.com/Hand_of_Shadow",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Necromancer",
+      "Shadow Knight"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "reapers_ring": {
+    "name": "Grim Aura",
+    "itemName": "Reaper's Ring",
+    "itemUrl": "https://wiki.project1999.com/Reaper%27s_Ring",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Necromancer",
+      "Shadow Knight"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "shrunken_goblin_skull_earring": {
+    "name": "Grim Aura",
+    "itemName": "Shrunken Goblin Skull Earring",
+    "itemUrl": "https://wiki.project1999.com/Shrunken_Goblin_Skull_Earring",
+    "requiredLevel": 15,
+    "levelKnown": true,
+    "classRestriction": [
+      "Necromancer",
+      "Shadow Knight"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "sword_of_pain": {
+    "name": "Grim Aura",
+    "itemName": "Sword of Pain",
+    "itemUrl": "https://wiki.project1999.com/Sword_of_Pain",
+    "requiredLevel": 5,
+    "levelKnown": true,
+    "classRestriction": [
+      "Shadow Knight"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "elder_spiritists_bracer": {
+    "name": "Share Wolf Form",
+    "itemName": "Elder Spiritist's Bracer",
+    "itemUrl": "https://wiki.project1999.com/Elder_Spiritist%27s_Bracer",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "group",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 30
+      }
+    ]
+  },
+  "fearsome_shield": {
+    "name": "Aura of Battle",
+    "itemName": "Fearsome Shield",
+    "itemUrl": "https://wiki.project1999.com/Fearsome_Shield",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Warrior",
+      "Cleric",
+      "Paladin",
+      "Shadow Knight"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 10
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 2
+      }
+    ]
+  },
+  "pauldrons_of_ferocity": {
+    "name": "Aura of Battle",
+    "itemName": "Pauldrons of Ferocity",
+    "itemUrl": "https://wiki.project1999.com/Pauldrons_of_Ferocity",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Warrior",
+      "Paladin",
+      "Shadow Knight"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_3_29",
+        "value": 10
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_2_29",
+        "value": 2
+      }
+    ]
+  },
+  "ring_of_dain_frostreaver_iv": {
+    "name": "Frostreaver's Blessing",
+    "itemName": "Ring of Dain Frostreaver IV",
+    "itemUrl": "https://wiki.project1999.com/Ring_of_Dain_Frostreaver_IV",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "attack_28slot_5_29",
+        "value": 10
+      },
+      {
+        "buffLineId": "damage_shield_28slot_2_29",
+        "value": 10
+      },
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "staff_of_the_four": {
+    "name": "Barrier of Force",
+    "itemName": "Staff of the Four",
+    "itemUrl": "https://wiki.project1999.com/Staff_of_the_Four",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 800
+      },
+      {
+        "buffLineId": "mana_regeneration_28self_only_29",
+        "value": 3
+      }
+    ]
+  },
+  "diamond_rod": {
+    "name": "Diamondskin",
+    "itemName": "Diamond Rod",
+    "itemUrl": "https://wiki.project1999.com/Diamond_Rod",
+    "requiredLevel": 46,
+    "levelKnown": true,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "damage_absorption_28primary_29",
+        "value": 394
+      }
+    ]
+  },
+  "regal_band_of_bathezid": {
+    "name": "Aegis of Bathezid",
+    "itemName": "Regal Band of Bathezid",
+    "itemUrl": "https://wiki.project1999.com/Regal_Band_of_Bathezid",
+    "requiredLevel": 49,
+    "levelKnown": true,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 25
+      }
+    ]
+  },
+  "arch_mages_robe": {
+    "name": "Shield of Lava",
+    "itemName": "Arch Mage's Robe",
+    "itemUrl": "https://wiki.project1999.com/Arch_Mage%27s_Robe",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Magician"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 25
+      }
+    ]
+  },
+  "prestidigitators_robe": {
+    "name": "Shield of Lava",
+    "itemName": "Prestidigitator's Robe",
+    "itemUrl": "https://wiki.project1999.com/Prestidigitator%27s_Robe",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Magician"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 25
+      }
+    ]
+  },
+  "robe_of_conjuration": {
+    "name": "Shield of Lava",
+    "itemName": "Robe of Conjuration",
+    "itemUrl": "https://wiki.project1999.com/Robe_of_Conjuration",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Magician"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 25
+      }
+    ]
+  },
+  "summoners_robe": {
+    "name": "Shield of Lava",
+    "itemName": "Summoner's Robe",
+    "itemUrl": "https://wiki.project1999.com/Summoner%27s_Robe",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Magician"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 25
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 25
+      }
+    ]
+  },
+  "gloves_of_earthcrafting": {
+    "name": "Shield of Thorns",
+    "itemName": "Gloves of Earthcrafting",
+    "itemUrl": "https://wiki.project1999.com/Gloves_of_Earthcrafting",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 24
+      }
+    ]
+  },
+  "earring_of_blazing_energy": {
+    "name": "Feedback",
+    "itemName": "Earring of Blazing Energy",
+    "itemUrl": "https://wiki.project1999.com/Earring_of_Blazing_Energy",
+    "requiredLevel": 49,
+    "levelKnown": true,
+    "classRestriction": [
+      "Enchanter"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 11
+      }
+    ]
+  },
+  "blazing_vambraces": {
+    "name": "Shield of Flame",
+    "itemName": "Blazing Vambraces",
+    "itemUrl": "https://wiki.project1999.com/Blazing_Vambraces",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Warrior",
+      "Cleric",
+      "Paladin",
+      "Shadow Knight",
+      "Bard"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 9
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 15
+      }
+    ]
+  },
+  "singing_steel_bracer": {
+    "name": "Shield of Flame",
+    "itemName": "Singing Steel Bracer",
+    "itemUrl": "https://wiki.project1999.com/Singing_Steel_Bracer",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Bard"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 9
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 15
+      }
+    ]
+  },
+  "boots_of_the_invoker": {
+    "name": "O'Keils Radiation",
+    "itemName": "Boots of the Invoker",
+    "itemUrl": "https://wiki.project1999.com/Boots_of_the_Invoker",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 2
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 10
+      }
+    ]
+  },
+  "icicle_boots": {
+    "name": "O'Keils Radiation",
+    "itemName": "Icicle Boots",
+    "itemUrl": "https://wiki.project1999.com/Icicle_Boots",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 2
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 10
+      }
+    ]
+  },
+  "sages_boots": {
+    "name": "O'Keils Radiation",
+    "itemName": "Sage's Boots",
+    "itemUrl": "https://wiki.project1999.com/Sage%27s_Boots",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 2
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 10
+      }
+    ]
+  },
+  "sorcerers_boots": {
+    "name": "O'Keils Radiation",
+    "itemName": "Sorcerer's Boots",
+    "itemUrl": "https://wiki.project1999.com/Sorcerer%27s_Boots",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_1_29",
+        "value": 2
+      },
+      {
+        "buffLineId": "slot_2",
+        "value": 10
+      }
+    ]
+  },
+  "coldain_heros_insignia_ring": {
+    "name": "Shield of the Eighth",
+    "itemName": "Coldain Hero's Insignia Ring",
+    "itemUrl": "https://wiki.project1999.com/Coldain_Hero%27s_Insignia_Ring",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "velium_coldain_insignia_ring": {
+    "name": "Shield of the Eighth",
+    "itemName": "Velium Coldain Insignia Ring",
+    "itemUrl": "https://wiki.project1999.com/Velium_Coldain_Insignia_Ring",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_2_29",
+        "value": 8
+      }
+    ]
+  },
+  "cloak_of_thorns": {
+    "name": "Thorny Shield",
+    "itemName": "Cloak of Thorns",
+    "itemUrl": "https://wiki.project1999.com/Cloak_of_Thorns",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Warrior",
+      "Ranger",
+      "Druid"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "damage_shield_28slot_4_29",
+        "value": 1
+      }
+    ]
+  },
+  "dark_cloak_of_the_sky": {
+    "name": "Haste",
+    "itemName": "Dark Cloak of the Sky",
+    "itemUrl": "https://wiki.project1999.com/Dark_Cloak_of_the_Sky",
+    "requiredLevel": 40,
+    "levelKnown": true,
+    "classRestriction": [
+      "Ranger"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 50
+      }
+    ]
+  },
+  "celestial_tranquility": {
+    "name": "Celestial Tranquility",
+    "itemName": "Celestial Tranquility",
+    "itemUrl": "https://wiki.project1999.com/Celestial_Tranquility",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Monk"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "haste_28primary_29",
+        "value": 40
+      }
+    ]
+  },
+  "fungi_covered_great_staff": {
+    "name": "Fungal Regrowth",
+    "itemName": "Fungi Covered Great Staff",
+    "itemUrl": "https://wiki.project1999.com/Fungi_Covered_Great_Staff",
+    "requiredLevel": 35,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid",
+      "Shaman"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 15
+      }
+    ]
+  },
+  "fungus_covered_great_staff": {
+    "name": "Fungal Regrowth",
+    "itemName": "Fungus Covered Great Staff",
+    "itemUrl": "https://wiki.project1999.com/Fungus_Covered_Great_Staff",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 15
+      }
+    ]
+  },
+  "hauberk_of_harmony": {
+    "name": "Regrowth of the Grove",
+    "itemName": "Hauberk of Harmony",
+    "itemUrl": "https://wiki.project1999.com/Hauberk_of_Harmony",
+    "requiredLevel": 46,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "group",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 15
+      }
+    ]
+  },
+  "nature_walkers_chestguard": {
+    "name": "Regrowth of the Grove",
+    "itemName": "Nature Walker's Chestguard",
+    "itemUrl": "https://wiki.project1999.com/Nature_Walker%27s_Chestguard",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "group",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 15
+      }
+    ]
+  },
+  "rowyls_chestguard_of_nature": {
+    "name": "Regrowth of the Grove",
+    "itemName": "Rowyl's Chestguard of Nature",
+    "itemUrl": "https://wiki.project1999.com/Rowyl%27s_Chestguard_of_Nature",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "group",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 15
+      }
+    ]
+  },
+  "woven_grass_chestguard": {
+    "name": "Regrowth of the Grove",
+    "itemName": "Woven Grass Chestguard",
+    "itemUrl": "https://wiki.project1999.com/Woven_Grass_Chestguard",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "group",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 15
+      }
+    ]
+  },
+  "elder_spiritists_breastplate": {
+    "name": "Chloroplast",
+    "itemName": "Elder Spiritist's Breastplate",
+    "itemUrl": "https://wiki.project1999.com/Elder_Spiritist%27s_Breastplate",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 10
+      }
+    ]
+  },
+  "chestplate_of_fiery_might": {
+    "name": "Fiery Might",
+    "itemName": "Chestplate of Fiery Might",
+    "itemUrl": "https://wiki.project1999.com/Chestplate_of_Fiery_Might",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Warrior",
+      "Paladin",
+      "Shadow Knight"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 5
+      }
+    ]
+  },
+  "spiroc_healers_cloak": {
+    "name": "Regeneration",
+    "itemName": "Spiroc Healer's Cloak",
+    "itemUrl": "https://wiki.project1999.com/Spiroc_Healer%27s_Cloak",
+    "requiredLevel": 45,
+    "levelKnown": true,
+    "classRestriction": [
+      "Ranger"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_1_29",
+        "value": 5
+      }
+    ]
+  },
+  "maple_leaf_mask": {
+    "name": "Treeform",
+    "itemName": "Maple Leaf Mask",
+    "itemUrl": "https://wiki.project1999.com/Maple_Leaf_Mask",
+    "requiredLevel": 20,
+    "levelKnown": true,
+    "classRestriction": [
+      "Druid",
+      "Enchanter"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28slot_3_26_6_29",
+        "value": 5
+      }
+    ]
+  },
+  "breath_of_harmony": {
+    "name": "Niv's Melody of Preservation",
+    "itemName": "Breath of Harmony",
+    "itemUrl": "https://wiki.project1999.com/Breath_of_Harmony",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Bard"
+    ],
+    "targetType": "group",
+    "slots": [
+      {
+        "buffLineId": "hp_regeneration_28layer_2_2c_slot_3_29",
+        "value": 9,
+        "valueWithInstrument": 25
+      }
+    ]
+  },
+  "white_flower_of_functionality": {
+    "name": "Aura of White Petals",
+    "itemName": "White Flower of Functionality",
+    "itemUrl": "https://wiki.project1999.com/White_Flower_of_Functionality",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "flower_2farmor",
+        "value": 50
+      }
+    ]
+  },
+  "aura_of_white_petals": {
+    "name": "Aura of White Petals",
+    "itemName": "Aura of White Petals",
+    "itemUrl": "https://wiki.project1999.com/Aura_of_White_Petals",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "flower_2farmor",
+        "value": 50
+      }
+    ]
+  },
+  "black_flower_of_functionality": {
+    "name": "Aura of Black Petals",
+    "itemName": "Black Flower of Functionality",
+    "itemUrl": "https://wiki.project1999.com/Black_Flower_of_Functionality",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "primary_2",
+        "value": 50
+      }
+    ]
+  },
+  "disciple_symbol_of_tunare": {
+    "name": "Aloe Sweat",
+    "itemName": "Disciple Symbol of Tunare",
+    "itemUrl": "https://wiki.project1999.com/Disciple_Symbol_of_Tunare",
+    "requiredLevel": 15,
+    "levelKnown": true,
+    "classRestriction": [
+      "Cleric",
+      "Druid"
+    ],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "item",
+        "value": 15
+      },
+      {
+        "buffLineId": "item_2",
+        "value": 15
+      }
+    ]
+  },
+  "red_flower_of_functionality": {
+    "name": "Aura of Red Petals",
+    "itemName": "Red Flower of Functionality",
+    "itemUrl": "https://wiki.project1999.com/Red_Flower_of_Functionality",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "slot_1",
+        "value": 50
+      }
+    ]
+  },
+  "icicle_pantaloons": {
+    "name": "Elemental Armor",
+    "itemName": "Icicle Pantaloons",
+    "itemUrl": "https://wiki.project1999.com/Icicle_Pantaloons",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "slot_4",
+        "value": 30
+      }
+    ]
+  },
+  "pants_of_the_invoker": {
+    "name": "Elemental Armor",
+    "itemName": "Pants of the Invoker",
+    "itemUrl": "https://wiki.project1999.com/Pants_of_the_Invoker",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "slot_4",
+        "value": 30
+      }
+    ]
+  },
+  "diamond_encrusted_staff": {
+    "name": "Elemental Armor",
+    "itemName": "Diamond Encrusted Staff",
+    "itemUrl": "https://wiki.project1999.com/Diamond_Encrusted_Staff",
+    "requiredLevel": 50,
+    "levelKnown": true,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "slot_4",
+        "value": 30
+      }
+    ]
+  },
+  "sages_pantaloons": {
+    "name": "Elemental Armor",
+    "itemName": "Sage's Pantaloons",
+    "itemUrl": "https://wiki.project1999.com/Sage%27s_Pantaloons",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "slot_4",
+        "value": 30
+      }
+    ]
+  },
+  "sorcerers_pantaloons": {
+    "name": "Elemental Armor",
+    "itemName": "Sorcerer's Pantaloons",
+    "itemUrl": "https://wiki.project1999.com/Sorcerer%27s_Pantaloons",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [
+      "Wizard"
+    ],
+    "targetType": "self",
+    "slots": [
+      {
+        "buffLineId": "slot_4",
+        "value": 30
+      }
+    ]
+  },
+  "blue_flower_of_functionality": {
+    "name": "Aura of Blue Petals",
+    "itemName": "Blue Flower of Functionality",
+    "itemUrl": "https://wiki.project1999.com/Blue_Flower_of_Functionality",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "primary_3",
+        "value": 50
+      }
+    ]
+  },
+  "green_flower_of_functionality": {
+    "name": "Aura of Green Petals",
+    "itemName": "Green Flower of Functionality",
+    "itemUrl": "https://wiki.project1999.com/Green_Flower_of_Functionality",
+    "requiredLevel": null,
+    "levelKnown": false,
+    "classRestriction": [],
+    "targetType": "single",
+    "slots": [
+      {
+        "buffLineId": "flower",
+        "value": 50
+      }
+    ]
+  }
+}
