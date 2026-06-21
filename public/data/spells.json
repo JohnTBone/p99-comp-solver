@@ -49,7 +49,10 @@
     "slots": [
       {
         "buffLineId": "agility_28primary_29",
-        "value": 45
+        "value": 45,
+        "valueAtMin": 43,
+        "minLevel": 44,
+        "maxLevel": 48
       }
     ]
   },
@@ -67,7 +70,10 @@
     "slots": [
       {
         "buffLineId": "agility_28primary_29",
-        "value": 36
+        "value": 36,
+        "valueAtMin": 33,
+        "minLevel": 34,
+        "maxLevel": 40
       }
     ]
   },
@@ -85,7 +91,10 @@
     "slots": [
       {
         "buffLineId": "agility_28primary_29",
-        "value": 27
+        "value": 27,
+        "valueAtMin": 23,
+        "minLevel": 19,
+        "maxLevel": 23
       }
     ]
   },
@@ -155,15 +164,24 @@
     "slots": [
       {
         "buffLineId": "agility_28speed_augmentation_29",
-        "value": 35
+        "value": 35,
+        "valueAtMin": 33,
+        "minLevel": 56,
+        "maxLevel": 60
       },
       {
         "buffLineId": "ac_28slot_3_29",
-        "value": 18
+        "value": 18,
+        "valueAtMin": 17,
+        "minLevel": 56,
+        "maxLevel": 60
       },
       {
         "buffLineId": "haste_28primary_29",
-        "value": 45
+        "value": 45,
+        "valueAtMin": 43,
+        "minLevel": 56,
+        "maxLevel": 60
       }
     ]
   },
@@ -181,15 +199,24 @@
     "slots": [
       {
         "buffLineId": "agility_28speed_augmentation_29",
-        "value": 30
+        "value": 30,
+        "valueAtMin": 19,
+        "minLevel": 29,
+        "maxLevel": 50
       },
       {
         "buffLineId": "ac_28slot_3_29",
-        "value": 9
+        "value": 9,
+        "valueAtMin": 5,
+        "minLevel": 29,
+        "maxLevel": 50
       },
       {
         "buffLineId": "haste_28primary_29",
-        "value": 28
+        "value": 28,
+        "valueAtMin": 22,
+        "minLevel": 29,
+        "maxLevel": 52
       }
     ]
   },
@@ -359,7 +386,10 @@
     "slots": [
       {
         "buffLineId": "charisma_28primary_29",
-        "value": 32
+        "value": 32,
+        "valueAtMin": 29,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ]
   },
@@ -377,7 +407,10 @@
     "slots": [
       {
         "buffLineId": "charisma_28primary_29",
-        "value": 30
+        "value": 30,
+        "valueAtMin": 27,
+        "minLevel": 34,
+        "maxLevel": 40
       }
     ]
   },
@@ -395,7 +428,10 @@
     "slots": [
       {
         "buffLineId": "charisma_28primary_29",
-        "value": 23
+        "value": 23,
+        "valueAtMin": 20,
+        "minLevel": 29,
+        "maxLevel": 34
       }
     ]
   },
@@ -413,7 +449,10 @@
     "slots": [
       {
         "buffLineId": "charisma_28primary_29",
-        "value": 18
+        "value": 18,
+        "valueAtMin": 16,
+        "minLevel": 20,
+        "maxLevel": 24
       }
     ]
   },
@@ -431,7 +470,10 @@
     "slots": [
       {
         "buffLineId": "charisma_28primary_29",
-        "value": 15
+        "value": 15,
+        "valueAtMin": 13,
+        "minLevel": 14,
+        "maxLevel": 18
       }
     ]
   },
@@ -579,7 +621,10 @@
     "slots": [
       {
         "buffLineId": "dexterity_28primary_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 5,
+        "minLevel": 1,
+        "maxLevel": 6
       }
     ]
   },
@@ -626,17 +671,26 @@
       {
         "buffLineId": "dexterity_28power_29",
         "value": 20,
-        "valueWithInstrument": 56
+        "valueWithInstrument": 56,
+        "valueAtMin": 5,
+        "minLevel": 1,
+        "maxLevel": 60
       },
       {
         "buffLineId": "strength_28anthem_29",
         "value": 20,
-        "valueWithInstrument": 56
+        "valueWithInstrument": 56,
+        "valueAtMin": 5,
+        "minLevel": 1,
+        "maxLevel": 60
       },
       {
         "buffLineId": "ac_28layer_2_2c_slot_1_29",
         "value": 6,
-        "valueWithInstrument": 16
+        "valueWithInstrument": 16,
+        "valueAtMin": 1,
+        "minLevel": 1,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "percussion"
@@ -703,11 +757,17 @@
     "slots": [
       {
         "buffLineId": "intelligence_28primary_29",
-        "value": 22
+        "value": 22,
+        "valueAtMin": 20,
+        "minLevel": 57,
+        "maxLevel": 65
       },
       {
         "buffLineId": "wisdom_28enchanter_29",
-        "value": 22
+        "value": 22,
+        "valueAtMin": 20,
+        "minLevel": 57,
+        "maxLevel": 65
       }
     ]
   },
@@ -725,7 +785,10 @@
     "slots": [
       {
         "buffLineId": "intelligence_28primary_29",
-        "value": 14
+        "value": 14,
+        "valueAtMin": 12,
+        "minLevel": 44,
+        "maxLevel": 52
       },
       {
         "buffLineId": "wisdom_28enchanter_29",
@@ -751,7 +814,10 @@
       },
       {
         "buffLineId": "wisdom_28enchanter_29",
-        "value": 14
+        "value": 14,
+        "valueAtMin": 10,
+        "minLevel": 39,
+        "maxLevel": 52
       }
     ]
   },
@@ -772,12 +838,18 @@
       {
         "buffLineId": "intelligence_28elegy_29",
         "value": 16,
-        "valueWithInstrument": 44
+        "valueWithInstrument": 44,
+        "valueAtMin": 12,
+        "minLevel": 44,
+        "maxLevel": 60
       },
       {
         "buffLineId": "wisdom_28elegy_29",
         "value": 16,
-        "valueWithInstrument": 44
+        "valueWithInstrument": 44,
+        "valueAtMin": 12,
+        "minLevel": 44,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "singing"
@@ -832,7 +904,10 @@
     "slots": [
       {
         "buffLineId": "stamina_28primary_29",
-        "value": 40
+        "value": 40,
+        "valueAtMin": 37,
+        "minLevel": 44,
+        "maxLevel": 50
       }
     ]
   },
@@ -850,7 +925,10 @@
     "slots": [
       {
         "buffLineId": "stamina_28primary_29",
-        "value": 31
+        "value": 31,
+        "valueAtMin": 29,
+        "minLevel": 34,
+        "maxLevel": 38
       }
     ]
   },
@@ -868,7 +946,10 @@
     "slots": [
       {
         "buffLineId": "stamina_28primary_29",
-        "value": 23
+        "value": 23,
+        "valueAtMin": 21,
+        "minLevel": 24,
+        "maxLevel": 28
       }
     ]
   },
@@ -886,7 +967,10 @@
     "slots": [
       {
         "buffLineId": "stamina_28primary_29",
-        "value": 15
+        "value": 15,
+        "valueAtMin": 12,
+        "minLevel": 9,
+        "maxLevel": 14
       }
     ]
   },
@@ -922,7 +1006,10 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 67
+        "value": 67,
+        "valueAtMin": 66,
+        "minLevel": 49,
+        "maxLevel": 50
       }
     ]
   },
@@ -958,11 +1045,17 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 42
+        "value": 42,
+        "valueAtMin": 29,
+        "minLevel": 39,
+        "maxLevel": 65
       },
       {
         "buffLineId": "damage_absorption_28primary_29",
-        "value": 90
+        "value": 90,
+        "valueAtMin": 79,
+        "minLevel": 39,
+        "maxLevel": 50
       }
     ]
   },
@@ -1024,7 +1117,10 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 35
+        "value": 35,
+        "valueAtMin": 32,
+        "minLevel": 44,
+        "maxLevel": 50
       }
     ]
   },
@@ -1042,7 +1138,10 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 34
+        "value": 34,
+        "valueAtMin": 31,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ]
   },
@@ -1078,7 +1177,10 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 26
+        "value": 26,
+        "valueAtMin": 23,
+        "minLevel": 29,
+        "maxLevel": 34
       }
     ]
   },
@@ -1096,7 +1198,10 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 25
+        "value": 25,
+        "valueAtMin": 22,
+        "minLevel": 34,
+        "maxLevel": 40
       }
     ]
   },
@@ -1114,7 +1219,10 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 18
+        "value": 18,
+        "valueAtMin": 16,
+        "minLevel": 19,
+        "maxLevel": 22
       }
     ]
   },
@@ -1136,7 +1244,10 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 15
+        "value": 15,
+        "valueAtMin": 9,
+        "minLevel": 9,
+        "maxLevel": 20
       }
     ]
   },
@@ -1158,7 +1269,10 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 5,
+        "minLevel": 1,
+        "maxLevel": 6
       }
     ]
   },
@@ -1179,7 +1293,10 @@
       {
         "buffLineId": "strength_28anthem_29",
         "value": 35,
-        "valueWithInstrument": 98
+        "valueWithInstrument": 98,
+        "valueAtMin": 10,
+        "minLevel": 10,
+        "maxLevel": 60
       },
       {
         "buffLineId": "haste_28primary_29",
@@ -1210,7 +1327,10 @@
       {
         "buffLineId": "ac_28layer_2_2c_slot_3_29",
         "value": 10,
-        "valueWithInstrument": 28
+        "valueWithInstrument": 28,
+        "valueAtMin": 2,
+        "minLevel": 7,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "singing"
@@ -1264,12 +1384,18 @@
       {
         "buffLineId": "strength_28anthem_29",
         "value": 21,
-        "valueWithInstrument": 58
+        "valueWithInstrument": 58,
+        "valueAtMin": 20,
+        "minLevel": 57,
+        "maxLevel": 60
       },
       {
         "buffLineId": "attack_28layer_2_2c_slot_3_26_4_29",
         "value": 14,
-        "valueWithInstrument": 39
+        "valueWithInstrument": 39,
+        "valueAtMin": 13,
+        "minLevel": 57,
+        "maxLevel": 60
       },
       {
         "buffLineId": "damage_shield_28layer_2_2c_slot_4_29",
@@ -1278,7 +1404,10 @@
       },
       {
         "buffLineId": "haste_28primary_29",
-        "value": 22
+        "value": 22,
+        "valueAtMin": 21,
+        "minLevel": 57,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "brass"
@@ -1301,7 +1430,10 @@
       },
       {
         "buffLineId": "attack_28slot_2_29",
-        "value": 61
+        "value": 61,
+        "valueAtMin": 45,
+        "minLevel": 44,
+        "maxLevel": 60
       },
       {
         "buffLineId": "haste_28primary_29",
@@ -1371,7 +1503,10 @@
       },
       {
         "buffLineId": "attack_28slot_1_29",
-        "value": 16
+        "value": 16,
+        "valueAtMin": 14,
+        "minLevel": 53,
+        "maxLevel": 60
       }
     ]
   },
@@ -1489,11 +1624,17 @@
     "slots": [
       {
         "buffLineId": "strength_28short_duration_bedlam_29",
-        "value": 25
+        "value": 25,
+        "valueAtMin": 20,
+        "minLevel": 20,
+        "maxLevel": 30
       },
       {
         "buffLineId": "damage_absorption_28berserker_29",
-        "value": 50
+        "value": 50,
+        "valueAtMin": 30,
+        "minLevel": 20,
+        "maxLevel": 60
       }
     ]
   },
@@ -1551,7 +1692,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 19
+        "value": 19,
+        "valueAtMin": 18,
+        "minLevel": 52,
+        "maxLevel": 60
       }
     ]
   },
@@ -1569,7 +1713,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 19
+        "value": 19,
+        "valueAtMin": 18,
+        "minLevel": 57,
+        "maxLevel": 60
       },
       {
         "buffLineId": "hp_regeneration_28slot_4_29",
@@ -1591,7 +1738,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 18
+        "value": 18,
+        "valueAtMin": 17,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   },
@@ -1613,7 +1763,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 16
+        "value": 16,
+        "valueAtMin": 15,
+        "minLevel": 44,
+        "maxLevel": 50
       }
     ]
   },
@@ -1683,7 +1836,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 13
+        "value": 13,
+        "valueAtMin": 12,
+        "minLevel": 34,
+        "maxLevel": 40
       }
     ]
   },
@@ -1705,7 +1861,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 9,
+        "minLevel": 24,
+        "maxLevel": 30
       }
     ]
   },
@@ -1723,7 +1882,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 9,
+        "minLevel": 24,
+        "maxLevel": 30
       }
     ]
   },
@@ -1745,7 +1907,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 9
+        "value": 9,
+        "valueAtMin": 7,
+        "minLevel": 19,
+        "maxLevel": 26
       }
     ]
   },
@@ -1767,7 +1932,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 7
+        "value": 7,
+        "valueAtMin": 6,
+        "minLevel": 14,
+        "maxLevel": 18
       }
     ]
   },
@@ -1789,7 +1957,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 6
+        "value": 6,
+        "valueAtMin": 5,
+        "minLevel": 9,
+        "maxLevel": 14
       }
     ]
   },
@@ -1811,7 +1982,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 4
+        "value": 4,
+        "valueAtMin": 3,
+        "minLevel": 1,
+        "maxLevel": 10
       }
     ]
   },
@@ -1851,7 +2025,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_1_29",
-        "value": 3
+        "value": 3,
+        "valueAtMin": 1,
+        "minLevel": 1,
+        "maxLevel": 10
       }
     ]
   },
@@ -1885,11 +2062,17 @@
       },
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 250
+        "value": 250,
+        "valueAtMin": 232,
+        "minLevel": 54,
+        "maxLevel": 60
       },
       {
         "buffLineId": "magic_shield",
-        "value": 24
+        "value": 24,
+        "valueAtMin": 22,
+        "minLevel": 54,
+        "maxLevel": 60
       }
     ]
   },
@@ -1945,7 +2128,10 @@
       },
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 150
+        "value": 150,
+        "valueAtMin": 144,
+        "minLevel": 44,
+        "maxLevel": 50
       },
       {
         "buffLineId": "magic_shield",
@@ -2005,11 +2191,17 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 29
+        "value": 29,
+        "valueAtMin": 28,
+        "minLevel": 34,
+        "maxLevel": 39
       },
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 100
+        "value": 100,
+        "valueAtMin": 94,
+        "minLevel": 34,
+        "maxLevel": 40
       },
       {
         "buffLineId": "magic_shield",
@@ -2035,7 +2227,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 25
+        "value": 25,
+        "valueAtMin": 23,
+        "minLevel": 39,
+        "maxLevel": 44
       },
       {
         "buffLineId": "damage_shield_28slot_3_29",
@@ -2069,11 +2264,17 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 23
+        "value": 23,
+        "valueAtMin": 16,
+        "minLevel": 24,
+        "maxLevel": 28
       },
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 75
+        "value": 75,
+        "valueAtMin": 69,
+        "minLevel": 24,
+        "maxLevel": 30
       },
       {
         "buffLineId": "magic_shield",
@@ -2099,7 +2300,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 18
+        "value": 18,
+        "valueAtMin": 17,
+        "minLevel": 29,
+        "maxLevel": 34
       },
       {
         "buffLineId": "damage_shield_28slot_3_29",
@@ -2133,11 +2337,17 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 18
+        "value": 18,
+        "valueAtMin": 15,
+        "minLevel": 16,
+        "maxLevel": 21
       },
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 50
+        "value": 50,
+        "valueAtMin": 46,
+        "minLevel": 16,
+        "maxLevel": 20
       },
       {
         "buffLineId": "magic_shield",
@@ -2181,7 +2391,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 12
+        "value": 12,
+        "valueAtMin": 11,
+        "minLevel": 19,
+        "maxLevel": 24
       },
       {
         "buffLineId": "damage_shield_28slot_3_29",
@@ -2215,11 +2428,17 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 9
+        "value": 9,
+        "valueAtMin": 6,
+        "minLevel": 8,
+        "maxLevel": 18
       },
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 30
+        "value": 30,
+        "valueAtMin": 20,
+        "minLevel": 8,
+        "maxLevel": 18
       }
     ]
   },
@@ -2275,11 +2494,17 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 4
+        "value": 4,
+        "valueAtMin": 3,
+        "minLevel": 1,
+        "maxLevel": 5
       },
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 6,
+        "minLevel": 1,
+        "maxLevel": 5
       }
     ]
   },
@@ -2297,7 +2522,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_3_29",
-        "value": 25
+        "value": 25,
+        "valueAtMin": 24,
+        "minLevel": 50,
+        "maxLevel": 55
       },
       {
         "buffLineId": "damage_shield_28slot_2_29",
@@ -2413,7 +2641,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 28
+        "value": 28,
+        "valueAtMin": 26,
+        "minLevel": 54,
+        "maxLevel": 60
       }
     ]
   },
@@ -2435,7 +2666,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 25
+        "value": 25,
+        "valueAtMin": 24,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ]
   },
@@ -2453,7 +2687,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 24
+        "value": 24,
+        "valueAtMin": 23,
+        "minLevel": 44,
+        "maxLevel": 45
       }
     ]
   },
@@ -2471,7 +2708,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 22
+        "value": 22,
+        "valueAtMin": 21,
+        "minLevel": 52,
+        "maxLevel": 60
       },
       {
         "buffLineId": "hp_regeneration_28slot_2_29",
@@ -2497,7 +2737,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 19
+        "value": 19,
+        "valueAtMin": 18,
+        "minLevel": 29,
+        "maxLevel": 34
       }
     ]
   },
@@ -2533,7 +2776,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 18
+        "value": 18,
+        "valueAtMin": 17,
+        "minLevel": 44,
+        "maxLevel": 48
       },
       {
         "buffLineId": "hp_regeneration_28slot_2_29",
@@ -2555,7 +2801,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 18
+        "value": 18,
+        "valueAtMin": 17,
+        "minLevel": 34,
+        "maxLevel": 35
       }
     ]
   },
@@ -2573,7 +2822,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 16
+        "value": 16,
+        "valueAtMin": 15,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ]
   },
@@ -2591,7 +2843,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 13
+        "value": 13,
+        "valueAtMin": 12,
+        "minLevel": 29,
+        "maxLevel": 34
       }
     ]
   },
@@ -2609,7 +2864,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 13
+        "value": 13,
+        "valueAtMin": 12,
+        "minLevel": 29,
+        "maxLevel": 34
       },
       {
         "buffLineId": "hp_regeneration_28slot_2_29",
@@ -2631,7 +2889,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 13
+        "value": 13,
+        "valueAtMin": 12,
+        "minLevel": 24,
+        "maxLevel": 28
       }
     ]
   },
@@ -2657,7 +2918,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 13
+        "value": 13,
+        "valueAtMin": 11,
+        "minLevel": 16,
+        "maxLevel": 24
       }
     ]
   },
@@ -2675,7 +2939,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 9,
+        "minLevel": 20,
+        "maxLevel": 25
       }
     ]
   },
@@ -2693,7 +2960,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 9,
+        "minLevel": 14,
+        "maxLevel": 18
       }
     ]
   },
@@ -2711,7 +2981,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 9
+        "value": 9,
+        "valueAtMin": 8,
+        "minLevel": 16,
+        "maxLevel": 20
       },
       {
         "buffLineId": "hp_regeneration_28slot_2_29",
@@ -2733,7 +3006,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 7
+        "value": 7,
+        "valueAtMin": 6,
+        "minLevel": 12,
+        "maxLevel": 16
       }
     ]
   },
@@ -2773,7 +3049,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 6
+        "value": 6,
+        "valueAtMin": 4,
+        "minLevel": 5,
+        "maxLevel": 9
       }
     ]
   },
@@ -2791,7 +3070,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 4
+        "value": 4,
+        "valueAtMin": 3,
+        "minLevel": 4,
+        "maxLevel": 8
       }
     ]
   },
@@ -2852,12 +3134,18 @@
       {
         "buffLineId": "ac_28layer_2_2c_slot_1_29",
         "value": 9,
-        "valueWithInstrument": 25
+        "valueWithInstrument": 25,
+        "valueAtMin": 4,
+        "minLevel": 17,
+        "maxLevel": 60
       },
       {
         "buffLineId": "psalm_2",
         "value": 35,
-        "valueWithInstrument": 98
+        "valueWithInstrument": 98,
+        "valueAtMin": 13,
+        "minLevel": 17,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "percussion"
@@ -2901,17 +3189,26 @@
       {
         "buffLineId": "ac_28layer_2_2c_slot_4_29",
         "value": 6,
-        "valueWithInstrument": 16
+        "valueWithInstrument": 16,
+        "valueAtMin": 2,
+        "minLevel": 9,
+        "maxLevel": 60
       },
       {
         "buffLineId": "layer_2_2c_slot_2_26_3",
         "value": 35,
-        "valueWithInstrument": 98
+        "valueWithInstrument": 98,
+        "valueAtMin": 9,
+        "minLevel": 9,
+        "maxLevel": 60
       },
       {
         "buffLineId": "psalm_2",
         "value": 35,
-        "valueWithInstrument": 98
+        "valueWithInstrument": 98,
+        "valueAtMin": 9,
+        "minLevel": 9,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "percussion"
@@ -2933,17 +3230,26 @@
       {
         "buffLineId": "ac_28layer_2_2c_slot_4_29",
         "value": 6,
-        "valueWithInstrument": 16
+        "valueWithInstrument": 16,
+        "valueAtMin": 3,
+        "minLevel": 25,
+        "maxLevel": 60
       },
       {
         "buffLineId": "damage_shield_28layer_2_2c_slot_1_29",
         "value": 13,
-        "valueWithInstrument": 36
+        "valueWithInstrument": 36,
+        "valueAtMin": 6,
+        "minLevel": 25,
+        "maxLevel": 60
       },
       {
         "buffLineId": "bard",
         "value": 70,
-        "valueWithInstrument": 196
+        "valueWithInstrument": 196,
+        "valueAtMin": 35,
+        "minLevel": 25,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "singing"
@@ -2965,12 +3271,18 @@
       {
         "buffLineId": "ac_28layer_2_2c_slot_4_29",
         "value": 6,
-        "valueWithInstrument": 16
+        "valueWithInstrument": 16,
+        "valueAtMin": 3,
+        "minLevel": 29,
+        "maxLevel": 60
       },
       {
         "buffLineId": "psalm",
         "value": 70,
-        "valueWithInstrument": 196
+        "valueWithInstrument": 196,
+        "valueAtMin": 39,
+        "minLevel": 29,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "singing"
@@ -2992,12 +3304,18 @@
       {
         "buffLineId": "ac_28layer_2_2c_slot_4_29",
         "value": 6,
-        "valueWithInstrument": 16
+        "valueWithInstrument": 16,
+        "valueAtMin": 2,
+        "minLevel": 13,
+        "maxLevel": 60
       },
       {
         "buffLineId": "psalm_2",
         "value": 35,
-        "valueWithInstrument": 98
+        "valueWithInstrument": 98,
+        "valueAtMin": 11,
+        "minLevel": 13,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "percussion"
@@ -3042,7 +3360,10 @@
     "slots": [
       {
         "buffLineId": "attack_28slot_1_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 5,
+        "minLevel": 9,
+        "maxLevel": 18
       }
     ]
   },
@@ -3064,7 +3385,10 @@
     "slots": [
       {
         "buffLineId": "attack_28slot_1_29",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 7,
+        "minLevel": 4,
+        "maxLevel": 10
       }
     ]
   },
@@ -3140,11 +3464,17 @@
     "slots": [
       {
         "buffLineId": "attack_28slot_3_29",
-        "value": 51
+        "value": 51,
+        "valueAtMin": 45,
+        "minLevel": 44,
+        "maxLevel": 50
       },
       {
         "buffLineId": "speed_28primary_29",
-        "value": 60
+        "value": 60,
+        "valueAtMin": 57,
+        "minLevel": 44,
+        "maxLevel": 50
       }
     ]
   },
@@ -3166,11 +3496,17 @@
     "slots": [
       {
         "buffLineId": "attack_28slot_3_29",
-        "value": 40
+        "value": 40,
+        "valueAtMin": 35,
+        "minLevel": 34,
+        "maxLevel": 39
       },
       {
         "buffLineId": "speed_28primary_29",
-        "value": 60
+        "value": 60,
+        "valueAtMin": 52,
+        "minLevel": 34,
+        "maxLevel": 50
       }
     ]
   },
@@ -3192,7 +3528,10 @@
       },
       {
         "buffLineId": "speed_28primary_29",
-        "value": 60
+        "value": 60,
+        "valueAtMin": 49,
+        "minLevel": 39,
+        "maxLevel": 60
       }
     ]
   },
@@ -3214,11 +3553,17 @@
     "slots": [
       {
         "buffLineId": "attack_28slot_3_29",
-        "value": 30
+        "value": 30,
+        "valueAtMin": 25,
+        "minLevel": 24,
+        "maxLevel": 29
       },
       {
         "buffLineId": "speed_28primary_29",
-        "value": 55
+        "value": 55,
+        "valueAtMin": 42,
+        "minLevel": 24,
+        "maxLevel": 50
       }
     ]
   },
@@ -3257,11 +3602,17 @@
       {
         "buffLineId": "attack_28layer_2_2c_slot_3_26_4_29",
         "value": 17,
-        "valueWithInstrument": 47
+        "valueWithInstrument": 47,
+        "valueAtMin": 13,
+        "minLevel": 45,
+        "maxLevel": 60
       },
       {
         "buffLineId": "haste_28primary_29",
-        "value": 50
+        "value": 50,
+        "valueAtMin": 48,
+        "minLevel": 45,
+        "maxLevel": 47
       }
     ],
     "instrumentSkill": "singing"
@@ -3283,11 +3634,17 @@
       {
         "buffLineId": "attack_28layer_2_2c_slot_3_26_4_29",
         "value": 16,
-        "valueWithInstrument": 44
+        "valueWithInstrument": 44,
+        "valueAtMin": 15,
+        "minLevel": 58,
+        "maxLevel": 60
       },
       {
         "buffLineId": "haste_28primary_29",
-        "value": 63
+        "value": 63,
+        "valueAtMin": 61,
+        "minLevel": 58,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "singing"
@@ -3306,7 +3663,10 @@
     "slots": [
       {
         "buffLineId": "damage_absorption_28primary_29",
-        "value": 700
+        "value": 700,
+        "valueAtMin": 620,
+        "minLevel": 52,
+        "maxLevel": 60
       }
     ]
   },
@@ -3328,7 +3688,10 @@
     "slots": [
       {
         "buffLineId": "damage_absorption_28primary_29",
-        "value": 600
+        "value": 600,
+        "valueAtMin": 521,
+        "minLevel": 52,
+        "maxLevel": 60
       },
       {
         "buffLineId": "mana_regeneration_28self_only_29",
@@ -3562,7 +3925,10 @@
       {
         "buffLineId": "psalm_2",
         "value": 70,
-        "valueWithInstrument": 196
+        "valueWithInstrument": 196,
+        "valueAtMin": 51,
+        "minLevel": 41,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "singing"
@@ -3741,7 +4107,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 20
+        "value": 20,
+        "valueAtMin": 18,
+        "minLevel": 39,
+        "maxLevel": 44
       },
       {
         "buffLineId": "slot_2",
@@ -3767,7 +4136,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 17
+        "value": 17,
+        "valueAtMin": 14,
+        "minLevel": 39,
+        "maxLevel": 48
       }
     ]
   },
@@ -3785,7 +4157,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 15
+        "value": 15,
+        "valueAtMin": 13,
+        "minLevel": 29,
+        "maxLevel": 36
       },
       {
         "buffLineId": "slot_2",
@@ -3811,7 +4186,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 12
+        "value": 12,
+        "valueAtMin": 11,
+        "minLevel": 29,
+        "maxLevel": 32
       }
     ]
   },
@@ -3833,7 +4211,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 12
+        "value": 12,
+        "valueAtMin": 9,
+        "minLevel": 16,
+        "maxLevel": 54
       }
     ]
   },
@@ -3869,7 +4250,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 9
+        "value": 9,
+        "valueAtMin": 8,
+        "minLevel": 20,
+        "maxLevel": 24
       },
       {
         "buffLineId": "slot_2",
@@ -3891,7 +4275,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 9
+        "value": 9,
+        "valueAtMin": 7,
+        "minLevel": 19,
+        "maxLevel": 24
       }
     ]
   },
@@ -3913,7 +4300,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 6
+        "value": 6,
+        "valueAtMin": 5,
+        "minLevel": 9,
+        "maxLevel": 12
       }
     ]
   },
@@ -3957,7 +4347,10 @@
       },
       {
         "buffLineId": "slot_2",
-        "value": 10
+        "value": 10,
+        "valueAtMin": 7,
+        "minLevel": 4,
+        "maxLevel": 10
       }
     ]
   },
@@ -3975,7 +4368,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_2_29",
-        "value": 16
+        "value": 16,
+        "valueAtMin": 9,
+        "minLevel": 34,
+        "maxLevel": 60
       }
     ]
   },
@@ -4018,12 +4414,18 @@
       {
         "buffLineId": "damage_shield_28layer_2_2c_slot_1_29",
         "value": 13,
-        "valueWithInstrument": 36
+        "valueWithInstrument": 36,
+        "valueAtMin": 7,
+        "minLevel": 33,
+        "maxLevel": 60
       },
       {
         "buffLineId": "layer_2_2c_slot_2_26_3",
         "value": 70,
-        "valueWithInstrument": 196
+        "valueWithInstrument": 196,
+        "valueAtMin": 43,
+        "minLevel": 33,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "singing"
@@ -4100,7 +4502,10 @@
     "slots": [
       {
         "buffLineId": "haste_28primary_29",
-        "value": 50
+        "value": 50,
+        "valueAtMin": 47,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ]
   },
@@ -4160,7 +4565,10 @@
     "slots": [
       {
         "buffLineId": "haste_28primary_29",
-        "value": 40
+        "value": 40,
+        "valueAtMin": 34,
+        "minLevel": 24,
+        "maxLevel": 36
       }
     ]
   },
@@ -4182,7 +4590,10 @@
     "slots": [
       {
         "buffLineId": "haste_28primary_29",
-        "value": 30
+        "value": 30,
+        "valueAtMin": 28,
+        "minLevel": 16,
+        "maxLevel": 20
       }
     ]
   },
@@ -4280,7 +4691,10 @@
     "slots": [
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 380
+        "value": 380,
+        "valueAtMin": 365,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   },
@@ -4298,7 +4712,10 @@
     "slots": [
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 250
+        "value": 250,
+        "valueAtMin": 238,
+        "minLevel": 44,
+        "maxLevel": 50
       }
     ]
   },
@@ -4316,7 +4733,10 @@
     "slots": [
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 150
+        "value": 150,
+        "valueAtMin": 134,
+        "minLevel": 34,
+        "maxLevel": 50
       }
     ]
   },
@@ -4832,7 +5252,10 @@
       },
       {
         "buffLineId": "speed_28primary_29",
-        "value": 67
+        "value": 67,
+        "valueAtMin": 62,
+        "minLevel": 54,
+        "maxLevel": 65
       }
     ]
   },
@@ -4853,7 +5276,10 @@
       {
         "buffLineId": "mana_regeneration_28chorus_29",
         "value": 7,
-        "valueWithInstrument": 14
+        "valueWithInstrument": 14,
+        "valueAtMin": 5,
+        "minLevel": 32,
+        "maxLevel": 48
       }
     ],
     "instrumentSkill": "singing"
@@ -5030,7 +5456,10 @@
     "slots": [
       {
         "buffLineId": "primary",
-        "value": 40
+        "value": 40,
+        "valueAtMin": 39,
+        "minLevel": 24,
+        "maxLevel": 25
       }
     ]
   },
@@ -5060,7 +5489,10 @@
     "slots": [
       {
         "buffLineId": "primary",
-        "value": 20
+        "value": 20,
+        "valueAtMin": 11,
+        "minLevel": 1,
+        "maxLevel": 10
       }
     ]
   },
@@ -5176,7 +5608,10 @@
     "slots": [
       {
         "buffLineId": "primary_2",
-        "value": 20
+        "value": 20,
+        "valueAtMin": 19,
+        "minLevel": 9,
+        "maxLevel": 10
       }
     ]
   },
@@ -5194,11 +5629,17 @@
     "slots": [
       {
         "buffLineId": "primary_2",
-        "value": 15
+        "value": 15,
+        "valueAtMin": 11,
+        "minLevel": 12,
+        "maxLevel": 20
       },
       {
         "buffLineId": "primary_4",
-        "value": 15
+        "value": 15,
+        "valueAtMin": 11,
+        "minLevel": 12,
+        "maxLevel": 20
       }
     ]
   },
@@ -5246,7 +5687,10 @@
     "slots": [
       {
         "buffLineId": "slot_1",
-        "value": 40
+        "value": 40,
+        "valueAtMin": 34,
+        "minLevel": 24,
+        "maxLevel": 30
       }
     ]
   },
@@ -5294,7 +5738,10 @@
     "slots": [
       {
         "buffLineId": "primary_3",
-        "value": 55
+        "value": 55,
+        "valueAtMin": 54,
+        "minLevel": 49,
+        "maxLevel": 50
       }
     ]
   },
@@ -5436,7 +5883,10 @@
     "slots": [
       {
         "buffLineId": "primary_4",
-        "value": 20
+        "value": 20,
+        "valueAtMin": 19,
+        "minLevel": 9,
+        "maxLevel": 10
       }
     ]
   },
@@ -5454,7 +5904,10 @@
     "slots": [
       {
         "buffLineId": "dead_man_floating",
-        "value": 70
+        "value": 70,
+        "valueAtMin": 64,
+        "minLevel": 44,
+        "maxLevel": 50
       }
     ]
   },
@@ -5475,7 +5928,10 @@
       {
         "buffLineId": "psalm_3",
         "value": 70,
-        "valueWithInstrument": 196
+        "valueWithInstrument": 196,
+        "valueAtMin": 47,
+        "minLevel": 37,
+        "maxLevel": 60
       }
     ],
     "instrumentSkill": "singing"
@@ -5516,7 +5972,10 @@
     "slots": [
       {
         "buffLineId": "speed_28primary_29",
-        "value": 65
+        "value": 65,
+        "valueAtMin": 20,
+        "minLevel": 5,
+        "maxLevel": 50
       }
     ]
   },
@@ -5534,7 +5993,10 @@
     "slots": [
       {
         "buffLineId": "speed_28primary_29",
-        "value": 115
+        "value": 115,
+        "valueAtMin": 99,
+        "minLevel": 24,
+        "maxLevel": 40
       }
     ]
   },
@@ -5556,7 +6018,10 @@
     "slots": [
       {
         "buffLineId": "speed_28primary_29",
-        "value": 70
+        "value": 70,
+        "valueAtMin": 57,
+        "minLevel": 24,
+        "maxLevel": 50
       }
     ]
   },
@@ -5582,7 +6047,10 @@
     "slots": [
       {
         "buffLineId": "speed_28primary_29",
-        "value": 55
+        "value": 55,
+        "valueAtMin": 34,
+        "minLevel": 9,
+        "maxLevel": 50
       }
     ]
   }

@@ -33,6 +33,9 @@ export interface BuffLine {
 export interface SpellSlot {
   buffLineId: string
   value: number
+  valueAtMin?: number
+  minLevel?: number
+  maxLevel?: number
   valueWithInstrument?: number
 }
 
@@ -471,6 +474,35 @@ function parseItemPage(html: string): ItemPageData {
 }
 
 // ---------------------------------------------------------------------------
+// Spell page scaling parser
+// ---------------------------------------------------------------------------
+
+interface ScalingEntry {
+  valueAtMin: number
+  minLevel: number
+  valueAtMax: number
+  maxLevel: number
+}
+
+function parseSpellScaling(html: string): ScalingEntry[] {
+  const $ = cheerioLoad(html)
+  const pageText = $('#mw-content-text').text()
+  const entries: ScalingEntry[] = []
+  // Matches: "by 5 (L1) to 20 (L60)" or "by 65% (L5) to 65% (L50)"
+  const pattern = /by\s+(\d+)%?\s+\(L(\d+)\)\s+to\s+(\d+)%?\s+\(L(\d+)\)/gi
+  let m: RegExpExecArray | null
+  while ((m = pattern.exec(pageText)) !== null) {
+    entries.push({
+      valueAtMin: parseInt(m[1], 10),
+      minLevel:   parseInt(m[2], 10),
+      valueAtMax: parseInt(m[3], 10),
+      maxLevel:   parseInt(m[4], 10),
+    })
+  }
+  return entries
+}
+
+// ---------------------------------------------------------------------------
 // Build output datasets
 // ---------------------------------------------------------------------------
 
@@ -780,26 +812,24 @@ async function main() {
   console.log(`\nFinal: ${Object.keys(spells).length} spells, ${Object.keys(clicks).length} clicks, ${Object.keys(procs).length} procs`)
 
   // -------------------------------------------------------------------------
-  // Scrape instrument skill for bard songs
+  // Scrape all spell pages: instrument skill (bard songs) + level scaling
   // -------------------------------------------------------------------------
 
   function parseInstrumentSkill(html: string): InstrumentFamily | null {
     const $ = cheerioLoad(html)
     let skillValue: string | null = null
 
-    // Find the <td> containing exactly "Skill", then grab the next sibling <td>
     $('td').each((_i, el) => {
       if ($(el).text().trim() === 'Skill') {
         const next = $(el).next('td')
         if (next.length) {
           skillValue = next.text().trim()
-          return false  // break
+          return false
         }
       }
     })
 
     if (!skillValue) return null
-
     const s = skillValue.toLowerCase()
     if (s === 'singing') return 'singing'
     if (s === 'brass') return 'brass'
@@ -809,25 +839,49 @@ async function main() {
     return null
   }
 
-  // Collect unique bard songs that have at least one slot with valueWithInstrument
-  const bardSongsToFetch = new Map<string, string>()  // spellSlug → sourceUrl
+  // Collect all unique spell pages to fetch (deduplicated by URL)
+  const spellPagesByUrl = new Map<string, string[]>()  // url → slugs
   for (const [slug, spell] of Object.entries(spells)) {
-    if (!spell.isBardSong) continue
-    if (!spell.slots.some(s => s.valueWithInstrument != null)) continue
-    bardSongsToFetch.set(slug, spell.sourceUrl)
+    const url = spell.sourceUrl
+    if (!spellPagesByUrl.has(url)) spellPagesByUrl.set(url, [])
+    spellPagesByUrl.get(url)!.push(slug)
   }
 
-  console.log(`\n=== Scraping instrument skill for ${bardSongsToFetch.size} bard songs ===`)
-  for (const [slug, url] of bardSongsToFetch) {
+  console.log(`\n=== Scraping ${spellPagesByUrl.size} spell pages (instrument skill + level scaling) ===`)
+  for (const [url, slugs] of spellPagesByUrl) {
     await sleep(RATE_LIMIT_MS)
     try {
       const html = await fetchHtml(url)
-      const skill = parseInstrumentSkill(html)
-      spells[slug].instrumentSkill = skill
-      console.log(`    ✓ ${spells[slug].name}: instrumentSkill=${skill ?? 'null'}`)
+      const scalingEntries = parseSpellScaling(html)
+
+      for (const slug of slugs) {
+        const spell = spells[slug]
+
+        // Instrument skill — bard songs only
+        if (spell.isBardSong && spell.slots.some(s => s.valueWithInstrument != null)) {
+          spell.instrumentSkill = parseInstrumentSkill(html)
+        }
+
+        // Level scaling — apply to any slot whose max value matches a parsed entry
+        for (const entry of scalingEntries) {
+          for (const slot of spell.slots) {
+            if (slot.value === entry.valueAtMax && entry.valueAtMin !== entry.valueAtMax) {
+              slot.valueAtMin = entry.valueAtMin
+              slot.minLevel   = entry.minLevel
+              slot.maxLevel   = entry.maxLevel
+            }
+          }
+        }
+
+        const instrNote = spell.isBardSong ? ` instr=${spell.instrumentSkill ?? 'null'}` : ''
+        const scalingNote = scalingEntries.length > 0 ? ` scaling=${scalingEntries.length}` : ''
+        console.log(`    ✓ ${spell.name}${instrNote}${scalingNote}`)
+      }
     } catch (err) {
-      console.warn(`    ✗ ${spells[slug].name}: ${err}`)
-      spells[slug].instrumentSkill = null
+      for (const slug of slugs) {
+        console.warn(`    ✗ ${spells[slug].name}: ${err}`)
+        if (spells[slug].isBardSong) spells[slug].instrumentSkill = null
+      }
     }
   }
 
