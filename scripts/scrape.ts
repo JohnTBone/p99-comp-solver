@@ -16,7 +16,8 @@
 
 import * as fs from 'fs'
 import * as path from 'path'
-import { load as cheerioLoad, type CheerioAPI, type AnyNode, type Element } from 'cheerio'
+import { load as cheerioLoad, type CheerioAPI } from 'cheerio'
+import type { AnyNode, Element } from 'domhandler'
 
 // ---------------------------------------------------------------------------
 // Types
@@ -819,15 +820,15 @@ async function main() {
     const $ = cheerioLoad(html)
     let skillValue: string | null = null
 
-    $('td').each((_i, el) => {
+    for (const el of $('td').toArray()) {
       if ($(el).text().trim() === 'Skill') {
         const next = $(el).next('td')
         if (next.length) {
           skillValue = next.text().trim()
-          return false
+          break
         }
       }
-    })
+    }
 
     if (!skillValue) return null
     const s = skillValue.toLowerCase()
