@@ -70,6 +70,8 @@ export const INSTRUMENT_OPTIONS: Record<InstrumentFamily, InstrumentOption[]> = 
 
 export type SelectedInstruments = Record<InstrumentFamily, string>
 
+export const PERCENT_STATS = new Set(['Haste', 'Speed'])
+
 // ---------------------------------------------------------------------------
 // Data types (mirror the JSON schema from the scraper)
 // ---------------------------------------------------------------------------
@@ -82,8 +84,11 @@ export interface BuffLine {
 
 export interface SpellSlot {
   buffLineId: string
-  value: number
-  valueWithInstrument?: number
+  value: number                 // value at maxLevel (or flat value if no scaling)
+  valueAtMin?: number           // value at minLevel when scaling exists
+  minLevel?: number             // level at which min value applies
+  maxLevel?: number             // level at which value caps (may be < 60, e.g. Selo's caps at 50)
+  valueWithInstrument?: number  // max-level instrument value (flag + magnitude)
 }
 
 export interface ClassEntry {
@@ -143,7 +148,6 @@ export const EQ_CLASSES = [
   'Bard', 'Cleric', 'Druid', 'Enchanter', 'Magician',
   'Monk', 'Necromancer', 'Paladin', 'Ranger', 'Rogue',
   'Shadow Knight', 'Shaman', 'Warrior', 'Wizard',
-  'Beastlord', 'Berserker',
 ] as const
 
 export type EQClass = (typeof EQ_CLASSES)[number]
@@ -203,6 +207,7 @@ export interface BuffLineResult {
   value: number
   valueWithInstrument?: number
   instrumentFamily?: InstrumentFamily
+  scalingStatus?: 'min' | 'max'
   sourceName: string
   sourceType: SourceType
   providerClass: string
@@ -216,7 +221,7 @@ export interface BardRotationSong {
   rationale: string
   score: number
   instrumentFamily?: InstrumentFamily
-  slotsContributed: Array<{ buffLineId: string; value: number; valueWithInstrument?: number }>
+  slotsContributed: Array<{ buffLineId: string; value: number; valueWithInstrument?: number; scalingStatus?: 'min' | 'max' }>
 }
 
 export interface BardRotationResult {

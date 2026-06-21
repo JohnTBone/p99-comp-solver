@@ -6,7 +6,7 @@
  * 2. Bard layer: optimal 4-song rotation per in-group Bard (greedy, sequential)
  */
 
-import { INSTRUMENT_OPTIONS } from './types'
+import { INSTRUMENT_OPTIONS, PERCENT_STATS } from './types'
 import type {
   GameData,
   CharacterSlot,
@@ -17,6 +17,7 @@ import type {
   BardRotationSong,
   SolverResult,
   Spell,
+  SpellSlot,
   EnabledResists,
   EnabledAbsorbs,
   SelectedInstruments,
@@ -53,6 +54,27 @@ const RESIST_STAT_MAP: Record<string, keyof EnabledResists> = {
 const ABSORB_STAT_MAP: Record<string, keyof EnabledAbsorbs> = {
   'Damage Absorption':        'physical',
   'Damage Absorption, Magic': 'magic',
+}
+
+// ---------------------------------------------------------------------------
+// Level scaling
+// ---------------------------------------------------------------------------
+
+function getLeveledValue(slot: SpellSlot, casterLevel: number): number {
+  if (slot.valueAtMin == null || slot.minLevel == null || slot.maxLevel == null) return slot.value
+  if (casterLevel <= slot.minLevel) return slot.valueAtMin
+  if (casterLevel >= slot.maxLevel) return slot.value
+  return Math.round(
+    slot.valueAtMin + (slot.value - slot.valueAtMin) *
+    (casterLevel - slot.minLevel) / (slot.maxLevel - slot.minLevel)
+  )
+}
+
+function getScalingStatus(slot: SpellSlot, casterLevel: number): 'min' | 'max' | undefined {
+  if (slot.valueAtMin == null || slot.minLevel == null || slot.maxLevel == null) return undefined
+  if (casterLevel <= slot.minLevel) return 'min'
+  if (casterLevel >= slot.maxLevel) return 'max'
+  return undefined
 }
 
 // ---------------------------------------------------------------------------
@@ -148,12 +170,13 @@ export function solve(
       if (spell.targetType === 'self') continue
       if (!spellEligibleForChar(spell, slot.class, slot.level)) continue
       for (const spellSlot of spell.slots) {
+        const scalingStatus = getScalingStatus(spellSlot, slot.level)
         updateBest({
           buffLineId: spellSlot.buffLineId,
           buffLineName: buffLines[spellSlot.buffLineId]?.name ?? spellSlot.buffLineId,
           stat: buffLines[spellSlot.buffLineId]?.stat ?? '',
-          value: spellSlot.value,
-          ...(spellSlot.valueWithInstrument != null ? { valueWithInstrument: spellSlot.valueWithInstrument } : {}),
+          value: getLeveledValue(spellSlot, slot.level),
+          ...(scalingStatus ? { scalingStatus } : {}),
           sourceName: spell.name,
           sourceType: 'spell',
           providerClass: slot.class,
@@ -198,11 +221,13 @@ export function solve(
         if (spell.targetType !== 'single') continue
         if (!spellEligibleForChar(spell, raidChar.class, raidChar.level)) continue
         for (const spellSlot of spell.slots) {
+          const scalingStatus = getScalingStatus(spellSlot, raidChar.level)
           updateBest({
             buffLineId: spellSlot.buffLineId,
             buffLineName: buffLines[spellSlot.buffLineId]?.name ?? spellSlot.buffLineId,
             stat: buffLines[spellSlot.buffLineId]?.stat ?? '',
-            value: spellSlot.value,
+            value: getLeveledValue(spellSlot, raidChar.level),
+            ...(scalingStatus ? { scalingStatus } : {}),
             sourceName: `${spell.name} (raid: ${raidChar.class})`,
             sourceType: 'spell',
             providerClass: raidChar.class,
@@ -262,6 +287,7 @@ export function solve(
             value: c.value,
             ...(c.valueWithInstrument != null ? { valueWithInstrument: c.valueWithInstrument } : {}),
             ...(song.instrumentFamily != null ? { instrumentFamily: song.instrumentFamily } : {}),
+            ...(c.scalingStatus ? { scalingStatus: c.scalingStatus } : {}),
             sourceName: song.spellName,
             sourceType: 'bardRotation',
             providerClass: 'Bard',
@@ -333,10 +359,11 @@ function optimizeBardRotation(
     return opt?.mod ?? 10
   }
 
-  function getEffectiveSlotValue(slot: import('./types').SpellSlot, instrumentSkill: InstrumentFamily | null | undefined): number {
-    if (slot.valueWithInstrument == null || !instrumentSkill) return slot.value
+  function getEffectiveSlotValue(slot: SpellSlot, instrumentSkill: InstrumentFamily | null | undefined, casterLevel: number): number {
+    const baseValue = getLeveledValue(slot, casterLevel)
+    if (slot.valueWithInstrument == null || !instrumentSkill) return baseValue
     const mod = getModForFamily(instrumentSkill)
-    return Math.round(slot.value * (mod / 10))
+    return Math.round(baseValue * (mod / 10))
   }
 
   // All eligible bard songs for this bard
@@ -346,7 +373,7 @@ function optimizeBardRotation(
     return spellEligibleForChar(s, 'Bard', bardSlot.level)
   })
 
-  type Contribution = { buffLineId: string; value: number; valueWithInstrument?: number }
+  type Contribution = { buffLineId: string; value: number; valueWithInstrument?: number; scalingStatus?: 'min' | 'max' }
 
   function scoreSong(
     spell: Spell,
@@ -355,20 +382,20 @@ function optimizeBardRotation(
     let score = 0
     const contributions: Contribution[] = []
     for (const slot of spell.slots) {
-      // Use the effective (instrument-boosted) value for scoring and baseline
-      // comparisons, but carry the base value separately for display.
-      const effective = getEffectiveSlotValue(slot, spell.instrumentSkill)
+      const baseValue = getLeveledValue(slot, bardSlot.level)
+      const effective = getEffectiveSlotValue(slot, spell.instrumentSkill, bardSlot.level)
       const baselineValue = currentBaseline.get(slot.buffLineId)?.value ?? 0
-      // baseline also stores effective values, so compare apples-to-apples
       const marginal = Math.max(0, effective - baselineValue)
       if (marginal > 0) {
         const stat = buffLines[slot.buffLineId]?.stat ?? ''
         const weight = getSongStatWeight(stat, raidRole, roleWeights, enabledResists, enabledAbsorbs)
         score += marginal * weight
+        const scalingStatus = getScalingStatus(slot, bardSlot.level)
         contributions.push({
           buffLineId: slot.buffLineId,
-          value: slot.value,
-          ...(effective !== slot.value ? { valueWithInstrument: effective } : {}),
+          value: baseValue,
+          ...(effective !== baseValue ? { valueWithInstrument: effective } : {}),
+          ...(scalingStatus ? { scalingStatus } : {}),
         })
       }
     }
@@ -428,13 +455,18 @@ function optimizeBardRotation(
   }
 
   function formatContribution(
-    c: { buffLineId: string; value: number; valueWithInstrument?: number },
+    c: Contribution,
     family: InstrumentFamily | null | undefined,
   ): string {
-    const name = buffLines[c.buffLineId]?.name ?? c.buffLineId
-    return c.valueWithInstrument != null
-      ? `${name} +${c.value} (+${c.valueWithInstrument} w/${instrLabel(family)})`
-      : `${name} +${c.value}`
+    const bl = buffLines[c.buffLineId]
+    const name = bl?.name ?? c.buffLineId
+    const pct = PERCENT_STATS.has(bl?.stat ?? '')
+    const scaleTag = c.scalingStatus ? ` (${c.scalingStatus})` : ''
+    const baseStr = pct ? `${c.value}%` : `+${c.value}`
+    const instrStr = c.valueWithInstrument != null
+      ? ` (${pct ? `${c.valueWithInstrument}%` : `+${c.valueWithInstrument}`} w/${instrLabel(family)})`
+      : ''
+    return `${name} ${baseStr}${scaleTag}${instrStr}`
   }
 
   // Top 2 alternatives (songs not in chosen rotation, scored against original baseline)

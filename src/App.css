@@ -119,6 +119,9 @@ a:hover { color: #ffc947; }
    ============================================================ */
 
 .comp-builder .section-header h2 { margin-bottom: 0; }
+.header-actions { display: flex; gap: 10px; align-items: center; }
+.btn-reset { color: var(--text-muted); }
+.btn-reset:hover { color: var(--accent); }
 
 .char-slot {
   margin-bottom: 8px;
@@ -462,6 +465,7 @@ a:hover { color: #ffc947; }
 .bl-name { font-weight: 500; }
 .bl-value { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--green); }
 .instrument-val { color: var(--text-muted); font-size: 10px; font-weight: 400; }
+.scaling-tag { font-size: 9px; font-weight: 500; color: var(--text-muted); opacity: 0.65; margin-left: 3px; letter-spacing: 0.2px; }
 .bl-source { color: var(--text-muted); }
 .bl-provider { color: var(--text-muted); font-size: 11px; }
 

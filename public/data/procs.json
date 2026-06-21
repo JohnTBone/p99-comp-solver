@@ -129,11 +129,17 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 42
+        "value": 42,
+        "valueAtMin": 29,
+        "minLevel": 39,
+        "maxLevel": 65
       },
       {
         "buffLineId": "damage_absorption_28primary_29",
-        "value": 90
+        "value": 90,
+        "valueAtMin": 79,
+        "minLevel": 39,
+        "maxLevel": 50
       }
     ]
   },
@@ -151,11 +157,17 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 42
+        "value": 42,
+        "valueAtMin": 29,
+        "minLevel": 39,
+        "maxLevel": 65
       },
       {
         "buffLineId": "damage_absorption_28primary_29",
-        "value": 90
+        "value": 90,
+        "valueAtMin": 79,
+        "minLevel": 39,
+        "maxLevel": 50
       }
     ]
   },
@@ -175,11 +187,17 @@
     "slots": [
       {
         "buffLineId": "strength_28primary_29",
-        "value": 42
+        "value": 42,
+        "valueAtMin": 29,
+        "minLevel": 39,
+        "maxLevel": 65
       },
       {
         "buffLineId": "damage_absorption_28primary_29",
-        "value": 90
+        "value": 90,
+        "valueAtMin": 79,
+        "minLevel": 39,
+        "maxLevel": 50
       }
     ]
   },
@@ -363,11 +381,17 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_2_29",
-        "value": 23
+        "value": 23,
+        "valueAtMin": 16,
+        "minLevel": 24,
+        "maxLevel": 28
       },
       {
         "buffLineId": "hp_28shielding_2f_talisman_29",
-        "value": 75
+        "value": 75,
+        "valueAtMin": 69,
+        "minLevel": 24,
+        "maxLevel": 30
       }
     ]
   },
@@ -392,7 +416,10 @@
       },
       {
         "buffLineId": "attack_28slot_1_29",
-        "value": 16
+        "value": 16,
+        "valueAtMin": 14,
+        "minLevel": 53,
+        "maxLevel": 60
       }
     ]
   },
@@ -411,7 +438,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 19
+        "value": 19,
+        "valueAtMin": 18,
+        "minLevel": 29,
+        "maxLevel": 34
       }
     ]
   },
@@ -431,7 +461,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 19
+        "value": 19,
+        "valueAtMin": 18,
+        "minLevel": 29,
+        "maxLevel": 34
       }
     ]
   },
@@ -451,7 +484,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 19
+        "value": 19,
+        "valueAtMin": 18,
+        "minLevel": 29,
+        "maxLevel": 34
       }
     ]
   },
@@ -492,7 +528,10 @@
     "slots": [
       {
         "buffLineId": "ac_28slot_4_29",
-        "value": 13
+        "value": 13,
+        "valueAtMin": 11,
+        "minLevel": 16,
+        "maxLevel": 24
       }
     ]
   },
@@ -550,7 +589,10 @@
       {
         "buffLineId": "ac_28layer_2_2c_slot_1_29",
         "value": 6,
-        "valueWithInstrument": 16
+        "valueWithInstrument": 16,
+        "valueAtMin": 1,
+        "minLevel": 1,
+        "maxLevel": 60
       }
     ]
   },
@@ -568,7 +610,10 @@
     "slots": [
       {
         "buffLineId": "attack_28slot_3_29",
-        "value": 40
+        "value": 40,
+        "valueAtMin": 35,
+        "minLevel": 34,
+        "maxLevel": 39
       }
     ]
   },
@@ -586,7 +631,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 12
+        "value": 12,
+        "valueAtMin": 11,
+        "minLevel": 29,
+        "maxLevel": 32
       }
     ]
   },
@@ -604,7 +652,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 12
+        "value": 12,
+        "valueAtMin": 11,
+        "minLevel": 29,
+        "maxLevel": 32
       }
     ]
   },
@@ -625,7 +676,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 9
+        "value": 9,
+        "valueAtMin": 8,
+        "minLevel": 20,
+        "maxLevel": 24
       },
       {
         "buffLineId": "slot_2",
@@ -650,7 +704,10 @@
     "slots": [
       {
         "buffLineId": "damage_shield_28slot_1_29",
-        "value": 6
+        "value": 6,
+        "valueAtMin": 5,
+        "minLevel": 9,
+        "maxLevel": 12
       }
     ]
   },

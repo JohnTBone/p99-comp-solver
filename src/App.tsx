@@ -15,7 +15,7 @@ import type {
   InstrumentFamily,
   SelectedInstruments,
 } from './types'
-import { EQ_CLASSES, INSTRUMENT_OPTIONS } from './types'
+import { EQ_CLASSES, INSTRUMENT_OPTIONS, PERCENT_STATS } from './types'
 import './App.css'
 
 // ---------------------------------------------------------------------------
@@ -31,7 +31,7 @@ const DEFAULT_RESISTS: EnabledResists = {
 }
 
 const DEFAULT_ABSORBS: EnabledAbsorbs = {
-  physical: true, magic: true,
+  physical: false, magic: false,
 }
 
 const DEFAULT_INSTRUMENTS: SelectedInstruments = {
@@ -175,6 +175,14 @@ export default function App() {
     }))
   }, [])
 
+  const resetParty = useCallback(() => {
+    setState({
+      ...DEFAULT_STATE,
+      slots: Array.from({ length: 6 }, (_, i) => ({ id: i, class: '' as const, level: 1, ownedClicks: {} })),
+    })
+    setLockedSongs({})
+  }, [])
+
   const toggleLockSong = useCallback((slotIndex: number, spellId: string) => {
     setLockedSongs(prev => {
       const current = prev[slotIndex] ?? []
@@ -215,6 +223,7 @@ export default function App() {
             onUpdateSlot={updateSlot}
             onToggleOwnedClick={toggleOwnedClick}
             onToggleShowClicks={() => setState(p => ({ ...p, showClicks: !p.showClicks }))}
+            onReset={resetParty}
           />
 
           <div className="section">
@@ -291,16 +300,20 @@ interface CompBuilderProps {
   onUpdateSlot: (id: number, patch: Partial<CharacterSlot>) => void
   onToggleOwnedClick: (slotId: number, clickKey: string, owned: boolean) => void
   onToggleShowClicks: () => void
+  onReset: () => void
 }
 
-function CompBuilder({ slots, gameData, showClicks, onUpdateSlot, onToggleOwnedClick, onToggleShowClicks }: CompBuilderProps) {
+function CompBuilder({ slots, gameData, showClicks, onUpdateSlot, onToggleOwnedClick, onToggleShowClicks, onReset }: CompBuilderProps) {
   return (
     <div className="section comp-builder">
       <div className="section-header">
         <h2>Party Composition</h2>
-        <button className="btn-link" onClick={onToggleShowClicks}>
-          {showClicks ? 'Hide clicks' : 'Show clicks'}
-        </button>
+        <div className="header-actions">
+          <button className="btn-link btn-reset" onClick={onReset}>Reset Party</button>
+          <button className="btn-link" onClick={onToggleShowClicks}>
+            {showClicks ? 'Hide clicks' : 'Show clicks'}
+          </button>
+        </div>
       </div>
       {slots.map(slot => (
         <CharacterSlotRow
@@ -530,8 +543,7 @@ function SongPrioritySection({ enabledResists, enabledAbsorbs, onChangeResists, 
     <div className="section">
       <h2>Bard Song Priorities</h2>
       <p className="help-text">
-        Damage absorb songs are included by default — uncheck to exclude when enemies deplete them quickly.
-        Resist songs are excluded by default — enable only what your enemies require.
+        Absorb and resist songs are excluded by default — enable when situationally relevant.
       </p>
       <div className="resist-toggles">
         {ABSORB_LABELS.map(({ key, label }) => (
@@ -734,6 +746,7 @@ function Results({ result, gameData, slots, raidRole, selectedInstruments, locke
       {result.buffLines.length > 0 && (
         <div className="section">
           <h2>Buff Coverage</h2>
+          <p className="help-text">Scaling spell values are linearly interpolated from wiki min/max data — intermediate levels are approximate. <span className="scaling-tag">min</span> / <span className="scaling-tag">max</span> marks boundary levels.</p>
           {Object.entries(bystat).map(([stat, lines]) => (
             <div key={stat} className="stat-group">
               <h3 className="stat-header">{stat}</h3>
@@ -759,12 +772,14 @@ function Results({ result, gameData, slots, raidRole, selectedInstruments, locke
                     <tr key={line.buffLineId} className={`source-${line.sourceType}`}>
                       <td className="bl-name">{line.buffLineName}</td>
                       <td className="bl-value">
-                        +{line.value}
+                        {PERCENT_STATS.has(line.stat) ? `${line.value}%` : `+${line.value}`}
+                        {line.scalingStatus && <span className="scaling-tag">{line.scalingStatus}</span>}
                         {line.valueWithInstrument != null && line.instrumentFamily != null && (() => {
                           const id = selectedInstruments[line.instrumentFamily]
                           const opt = INSTRUMENT_OPTIONS[line.instrumentFamily].find(o => o.id === id)
                           const name = opt ? opt.name.replace(/\s*\(×[\d.]+\)\s*$/, '') : 'instr'
-                          return <span className="instrument-val"> (+{line.valueWithInstrument} w/{name})</span>
+                          const pct = PERCENT_STATS.has(line.stat)
+                          return <span className="instrument-val"> ({pct ? `${line.valueWithInstrument}%` : `+${line.valueWithInstrument}`} w/{name})</span>
                         })()}
                       </td>
                       <td className="bl-source">{line.sourceName}</td>
