@@ -482,7 +482,7 @@ interface InstrumentPanelProps {
 function InstrumentPanel({ selectedInstruments, instrumentsEnabled, onChange, onToggleEnabled }: InstrumentPanelProps) {
   return (
     <div className="section instrument-panel">
-      <h2>Bard Instruments</h2>
+      <h2>Bard Instruments <a className="wiki-link" href="https://wiki.project1999.com/Bard_Instruments" target="_blank" rel="noopener noreferrer">(link)</a></h2>
       <p className="help-text">
         Select each instrument and toggle it on/off to compare with and without.
       </p>
@@ -745,7 +745,7 @@ function Results({ result, gameData, slots, raidRole, selectedInstruments, locke
       {/* Buff coverage table */}
       {result.buffLines.length > 0 && (
         <div className="section">
-          <h2>Buff Coverage</h2>
+          <h2>Buff Lines <a className="wiki-link" href="https://wiki.project1999.com/Buff_Lines" target="_blank" rel="noopener noreferrer">(link)</a></h2>
           <p className="help-text">Scaling spell values are linearly interpolated from wiki min/max data — intermediate levels are approximate. <span className="scaling-tag">min</span> / <span className="scaling-tag">max</span> marks boundary levels.</p>
           {Object.entries(bystat).map(([stat, lines]) => (
             <div key={stat} className="stat-group">

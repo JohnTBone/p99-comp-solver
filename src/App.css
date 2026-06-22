@@ -25,11 +25,14 @@ html, body, #root {
   font-family: 'Segoe UI', system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a { color: var(--accent2); }
 a:hover { color: #ffc947; }
+
+.wiki-link { font-size: 12px; font-weight: 400; color: var(--text-muted); text-decoration: none; margin-left: 4px; }
+.wiki-link:hover { color: var(--accent2); text-decoration: underline; }
 
 /* ============================================================
    Layout
@@ -48,14 +51,14 @@ a:hover { color: #ffc947; }
 }
 
 .app-header h1 {
-  font-size: 20px;
+  font-size: 23px;
   color: var(--accent2);
   letter-spacing: 0.5px;
 }
 
 .app-header .subtitle {
   color: var(--text-muted);
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 2px;
 }
 
@@ -67,9 +70,9 @@ a:hover { color: #ffc947; }
 }
 
 .sidebar {
-  width: 360px;
-  min-width: 300px;
-  max-width: 400px;
+  width: 390px;
+  min-width: 320px;
+  max-width: 430px;
   flex-shrink: 0;
   border-right: 1px solid var(--border);
   overflow-y: auto;
@@ -101,14 +104,14 @@ a:hover { color: #ffc947; }
 }
 
 .section h2 {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--accent2);
   margin-bottom: 10px;
 }
 
 .section h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--text-muted);
   margin: 8px 0 4px;
@@ -147,7 +150,7 @@ a:hover { color: #ffc947; }
   border-radius: 4px;
   color: var(--text);
   padding: 4px 6px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .level-input {
@@ -163,14 +166,14 @@ a:hover { color: #ffc947; }
   border-radius: 4px;
   color: var(--text);
   padding: 4px;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
 }
 
-.level-label { color: var(--text-muted); font-size: 11px; }
+.level-label { color: var(--text-muted); font-size: 13px; }
 
 .clicks-toggle {
-  font-size: 11px;
+  font-size: 13px;
   white-space: nowrap;
 }
 
@@ -190,7 +193,7 @@ a:hover { color: #ffc947; }
   display: grid;
   grid-template-columns: 1fr 1fr 40px 32px;
   gap: 4px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -206,7 +209,7 @@ a:hover { color: #ffc947; }
   gap: 4px;
   align-items: center;
   padding: 3px 0;
-  font-size: 11px;
+  font-size: 13px;
   border-bottom: 1px solid rgba(42,42,74,0.5);
 }
 
@@ -214,7 +217,7 @@ a:hover { color: #ffc947; }
 
 .click-item-name { font-weight: 500; }
 .click-effect { color: var(--text-muted); }
-.click-level { color: var(--text-muted); font-size: 10px; }
+.click-level { color: var(--text-muted); font-size: 12px; }
 .click-own { display: flex; justify-content: center; }
 
 /* ============================================================
@@ -230,7 +233,7 @@ a:hover { color: #ffc947; }
   border-radius: 4px;
   color: var(--text);
   padding: 6px 8px;
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 8px;
 }
 
@@ -239,7 +242,7 @@ a:hover { color: #ffc947; }
 }
 
 .help-text {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
   margin-bottom: 8px;
   line-height: 1.4;
@@ -258,7 +261,7 @@ a:hover { color: #ffc947; }
   border-radius: 4px;
   color: var(--text);
   padding: 4px 6px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .raid-class-row select { flex: 1; }
@@ -271,7 +274,7 @@ a:hover { color: #ffc947; }
   color: var(--text-muted);
   cursor: pointer;
   padding: 3px 7px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .btn-remove:hover { border-color: var(--accent); color: var(--accent); }
@@ -283,7 +286,7 @@ a:hover { color: #ffc947; }
   color: var(--text-muted);
   cursor: pointer;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   width: 100%;
   margin-top: 4px;
 }
@@ -295,13 +298,13 @@ a:hover { color: #ffc947; }
 }
 
 .raid-clicks h4 {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-muted);
   margin-bottom: 4px;
 }
 
 .group-note {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--text-muted);
   font-style: italic;
 }
@@ -314,7 +317,7 @@ a:hover { color: #ffc947; }
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -354,7 +357,7 @@ a:hover { color: #ffc947; }
 .instrument-toggle { cursor: pointer; }
 
 .instrument-label {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-muted);
   font-weight: 500;
 }
@@ -366,7 +369,7 @@ a:hover { color: #ffc947; }
   border-radius: 4px;
   color: var(--text);
   padding: 4px 6px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 
@@ -379,7 +382,7 @@ a:hover { color: #ffc947; }
   border: none;
   color: var(--accent2);
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px;
   padding: 0;
   text-decoration: underline;
 }
@@ -401,7 +404,7 @@ a:hover { color: #ffc947; }
   padding: 8px 12px;
   margin-bottom: 10px;
   border-radius: 0 4px 4px 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .empty-state {
@@ -420,7 +423,7 @@ a:hover { color: #ffc947; }
 }
 
 .stat-header {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--accent2);
   padding: 6px 0 4px;
@@ -433,7 +436,7 @@ a:hover { color: #ffc947; }
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .buff-table th,
@@ -446,7 +449,7 @@ a:hover { color: #ffc947; }
 .buff-table th {
   text-align: left;
   padding: 4px 8px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -464,10 +467,10 @@ a:hover { color: #ffc947; }
 
 .bl-name { font-weight: 500; }
 .bl-value { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--green); }
-.instrument-val { color: var(--text-muted); font-size: 10px; font-weight: 400; }
-.scaling-tag { font-size: 9px; font-weight: 500; color: var(--text-muted); opacity: 0.65; margin-left: 3px; letter-spacing: 0.2px; }
+.instrument-val { color: var(--text-muted); font-size: 12px; font-weight: 400; }
+.scaling-tag { font-size: 11px; font-weight: 500; color: var(--text-muted); opacity: 0.65; margin-left: 3px; letter-spacing: 0.2px; }
 .bl-source { color: var(--text-muted); }
-.bl-provider { color: var(--text-muted); font-size: 11px; }
+.bl-provider { color: var(--text-muted); font-size: 13px; }
 
 /* Source type row tinting */
 tr.source-bardRotation td { background: rgba(156, 39, 176, 0.05); }
@@ -478,7 +481,7 @@ tr.source-click td { background: rgba(245, 166, 35, 0.04); }
   display: inline-block;
   padding: 1px 7px;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: uppercase;
@@ -503,7 +506,7 @@ tr.source-click td { background: rgba(245, 166, 35, 0.04); }
 }
 
 .bard-rotation h3 {
-  font-size: 14px;
+  font-size: 15px;
   color: #ce93d8;
   margin-bottom: 6px;
 }
@@ -531,19 +534,19 @@ tr.source-click td { background: rgba(245, 166, 35, 0.04); }
   border-color: var(--border);
 }
 
-.song-num { color: var(--text-muted); font-size: 12px; min-width: 18px; }
-.song-name { font-weight: 600; font-size: 13px; min-width: 180px; }
-.song-score { color: var(--text-muted); font-size: 11px; min-width: 80px; }
-.song-family { color: #c8a8e8; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; min-width: 68px; }
-.song-rationale { color: var(--text-muted); font-size: 11px; flex: 1; }
+.song-num { color: var(--text-muted); font-size: 14px; min-width: 18px; }
+.song-name { font-weight: 600; font-size: 15px; min-width: 180px; }
+.song-score { color: var(--text-muted); font-size: 13px; min-width: 80px; }
+.song-family { color: #c8a8e8; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; min-width: 68px; }
+.song-rationale { color: var(--text-muted); font-size: 13px; flex: 1; }
 
-.bl-family { font-size: 10px; color: #c8a8e8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; margin-left: 5px; }
+.bl-family { font-size: 12px; color: #c8a8e8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; margin-left: 5px; }
 
 .btn-lock {
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 15px;
   padding: 0 4px;
   margin-left: auto;
 }
@@ -555,7 +558,7 @@ tr.source-click td { background: rgba(245, 166, 35, 0.04); }
 .alt-rotations summary {
   cursor: pointer;
   color: var(--text-muted);
-  font-size: 12px;
+  font-size: 14px;
   padding: 4px 0;
 }
 
@@ -593,7 +596,7 @@ tr.source-click td { background: rgba(245, 166, 35, 0.04); }
    ============================================================ */
 
 .not-optimized {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
   font-weight: 400;
 }
